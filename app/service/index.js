@@ -28,5 +28,10 @@ class IndexService extends Service {
         let result = await this.app.mysql.get('info_user'); // 单实例可以直接通过 app.mysql 访问
         return result;
     }
+    // 获取首页项目数据,跑完公司表,跑项目表,然后将一个整体抛回去
+    async projects() {
+        // let result = await this.app.mysql.get('info_company'); // 单实例可以直接通过 app.mysql 访问
+        // return result;
+    }
 }
 module.exports = IndexService;
