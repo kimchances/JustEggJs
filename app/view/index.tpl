@@ -4,8 +4,6 @@
     <link rel="stylesheet" href="/public/css/index.css" />
   </head>
   <body>
-    {{ data.name }}
-    {{ data.headPic }}
-    {{ data.desc }}
+    {{ data }}
   </body>
 </html>
