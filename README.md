@@ -1,3 +1,2 @@
-JustEggJs
-真的想用的项目
-    --- egg-example :egg.js 
+- JustEggJs 正在研究
+- egg-example :egg.js 入门
