@@ -1,0 +1,20 @@
+{
+  "someText": "JSON补充了script dev",
+  "name": "hacknews",
+  "version": "1.0.0",
+  "description": "hacker news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "author": "#KimChan",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.26.0",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1"
+  }
+}

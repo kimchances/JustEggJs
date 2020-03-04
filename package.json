@@ -1,0 +1,20 @@
+{
+  "someText": "JSON补充了script dev",
+  "name": "offical",
+  "version": "1.0.0",
+  "description": "offical",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "author": "#KimChan",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.26.0",
+    "egg-mysql": "^3.0.0",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1"
+  }
+}

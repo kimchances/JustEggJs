@@ -1,0 +1,237 @@
+2020-03-04 15:19:21,804 ERROR 3228 [-/127.0.0.1/-/4ms GET /index] nodejs.AssertionError: Can't find viewEngine for C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\view\index.tpl
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:66:5)
+    at async IndexController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\index.js:10:9)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 3228
+hostname: 2016-20180716VT
+
+2020-03-04 15:27:10,677 ERROR 16320 [-/127.0.0.1/-/9ms GET /index] nodejs.AssertionError: Can't find ../index.tpl from C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\view
+    at Map.resolve (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async IndexController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\index.js:10:9)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16320
+hostname: 2016-20180716VT
+
+2020-03-04 15:27:29,420 ERROR 4820 [-/127.0.0.1/-/8ms GET /index] nodejs.AssertionError: Can't find viewEngine for C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\view\index.tpl
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:66:5)
+    at async IndexController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\index.js:10:9)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4820
+hostname: 2016-20180716VT
+
+2020-03-04 15:27:32,044 ERROR 4820 [-/127.0.0.1/-/1ms GET /index] nodejs.AssertionError: Can't find viewEngine for C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\view\index.tpl
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:66:5)
+    at async IndexController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\index.js:10:9)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4820
+hostname: 2016-20180716VT
+
+2020-03-04 15:27:35,004 ERROR 4820 [-/127.0.0.1/-/1ms GET /index] nodejs.AssertionError: Can't find viewEngine for C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\view\index.tpl
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:66:5)
+    at async IndexController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\index.js:10:9)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4820
+hostname: 2016-20180716VT
+
+2020-03-04 15:29:20,401 ERROR 3416 [-/127.0.0.1/-/7ms GET /index] nodejs.AssertionError: Can't find viewEngine for C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\view\index.tpl
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:66:5)
+    at async IndexController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\index.js:11:9)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 3416
+hostname: 2016-20180716VT
+
+2020-03-04 15:31:40,647 ERROR 16308 [-/127.0.0.1/-/4ms GET /news] nodejs.AssertionError: Can't find viewEngine for C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:66:5)
+    at async NewsController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\news.js:10:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 16308
+hostname: 2016-20180716VT
+
+2020-03-04 15:33:37,992 ERROR 12016 [-/127.0.0.1/-/8ms GET /news] nodejs.AssertionError: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+    at async NewsController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\news.js:10:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 12016
+hostname: 2016-20180716VT
+
+2020-03-04 15:33:39,707 ERROR 12016 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+    at async NewsController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\news.js:10:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 12016
+hostname: 2016-20180716VT
+
+2020-03-04 15:34:00,978 ERROR 11752 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+    at async NewsController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\news.js:10:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11752
+hostname: 2016-20180716VT
+
+2020-03-04 15:43:26,569 ERROR 3020 [-/127.0.0.1/-/1ms GET /news] nodejs.TypeError: ctx.service.news.list is not a function
+    at NewsController.list (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\app\controller\news.js:16:45)
+    at Object.callFn (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3020
+hostname: 2016-20180716VT
+
+2020-03-04 15:44:26,513 ERROR 9336 [-/127.0.0.1/-/5036ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5024,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 9336
+hostname: 2016-20180716VT
+
+2020-03-04 15:58:29,264 ERROR 14612 [-/127.0.0.1/-/5028ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\egg-example\node_modules\_urllib@2.34.2@urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5018,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 14612
+hostname: 2016-20180716VT
+

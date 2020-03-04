@@ -1,0 +1,261 @@
+2020-03-04 16:19:52,499 ERROR 14912 [-/127.0.0.1/-/90ms GET /] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'myServer.db1' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `db1` LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'myServer.db1' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `db1` LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 14912
+hostname: 2016-20180716VT
+
+2020-03-04 16:20:19,877 ERROR 6700 [-/127.0.0.1/-/32ms GET /] nodejs.AssertionError: Can't find news/index.tpl from C:\Users\Administrator\Desktop\RundeGit\JustEggJs\app\view
+    at Map.resolve (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async Index.index (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\app\controller\index.js:24:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 6700
+hostname: 2016-20180716VT
+
+2020-03-04 16:21:15,472 ERROR 5744 [-/127.0.0.1/-/25ms GET /] nodejs.ReferenceError: newsList is not defined
+    at Index.index (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\app\controller\index.js:23:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+
+pid: 5744
+hostname: 2016-20180716VT
+
+2020-03-04 16:21:43,829 ERROR 11816 [-/127.0.0.1/-/28ms GET /] nodejs.ReferenceError: newsList is not defined
+    at Index.index (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\app\controller\index.js:23:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+
+pid: 11816
+hostname: 2016-20180716VT
+
+2020-03-04 16:29:04,729 ERROR 8636 [-/127.0.0.1/-/26ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at Index.index (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\app\controller\index.js:14:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+
+pid: 8636
+hostname: 2016-20180716VT
+
+2020-03-04 16:32:24,501 ERROR 14964 [-/127.0.0.1/-/25ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at Index.index (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\app\controller\index.js:15:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-session@5.13.1@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+
+pid: 14964
+hostname: 2016-20180716VT
+
+2020-03-04 16:35:09,467 ERROR 12212 [-/127.0.0.1/-/50ms GET /] nodejs.Template render error: (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\app\view\index.tpl) [Line 6, Column 21]
+  Error: Unable to call `JSON["stringify"]`, which is undefined or falsey
+  Error: Unable to call `JSON["stringify"]`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:36:11)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:567:19
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:637:18), <anonymous>:19:3)
+    at Template.render (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:556:10)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:366:27
+    at createTemplate (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:315:9)
+    at handle (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:327:11)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:339:9
+    at next (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:286:3)
+name: "Template render error"
+pid: 12212
+hostname: 2016-20180716VT
+
+2020-03-04 16:59:39,648 ERROR 13900 [-/127.0.0.1/-/26ms GET /] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'server_page.Idx_Info' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `Idx_Info` LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'server_page.Idx_Info' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `Idx_Info` LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 13900
+hostname: 2016-20180716VT
+
+2020-03-04 16:59:51,705 ERROR 13900 [-/127.0.0.1/-/17ms GET /] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'server_page.Idx_Info' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `Idx_Info` LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'server_page.Idx_Info' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `Idx_Info` LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 13900
+hostname: 2016-20180716VT
+
+2020-03-04 17:00:17,423 ERROR 6240 [-/127.0.0.1/-/25ms GET /] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'server_page.Idx_Info' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `Idx_Info` LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'server_page.Idx_Info' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `Idx_Info` LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 6240
+hostname: 2016-20180716VT
+
+2020-03-04 17:00:42,782 ERROR 8624 [-/127.0.0.1/-/25ms GET /] nodejs.ER_WRONG_TABLE_NAMEError: ER_WRONG_TABLE_NAME: Incorrect table name ''
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\RundeGit\JustEggJs\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `` LIMIT 0, 1
+code: "ER_WRONG_TABLE_NAME"
+errno: 1103
+sqlMessage: "Incorrect table name ''"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `` LIMIT 0, 1"
+name: "ER_WRONG_TABLE_NAMEError"
+pid: 8624
+hostname: 2016-20180716VT
+
