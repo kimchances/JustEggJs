@@ -814,3 +814,1221 @@
 2020-03-04 17:01:45,035 INFO 6280 [egg-watcher:application] watcher start success
 2020-03-04 17:01:45,077 INFO 6280 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 04 2020 17:01:43 GMT+0800 (GMT+08:00)
 2020-03-04 17:01:45,085 INFO 6280 [egg:core] dump config after ready, 6ms
+2020-03-04 23:37:54,646 INFO 57476 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:37:54,673 INFO 57476 [egg-multipart] stream mode enable
+2020-03-04 23:37:54,675 INFO 57476 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:37:54,832 INFO 57476 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:37:54,834 INFO 57476 [egg-security] use csrf middleware
+2020-03-04 23:37:54,835 INFO 57476 [egg-security] use methodnoallow middleware
+2020-03-04 23:37:54,836 INFO 57476 [egg-security] use noopen middleware
+2020-03-04 23:37:54,837 INFO 57476 [egg-security] use nosniff middleware
+2020-03-04 23:37:54,838 INFO 57476 [egg-security] use xssProtection middleware
+2020-03-04 23:37:54,838 INFO 57476 [egg-security] use xframe middleware
+2020-03-04 23:37:54,839 INFO 57476 [egg-security] use dta middleware
+2020-03-04 23:37:54,839 INFO 57476 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:37:54,846 INFO 57476 [egg:core] dump config after load, 4ms
+2020-03-04 23:37:54,856 INFO 57476 [egg-watcher:application] watcher start success
+2020-03-04 23:37:54,931 INFO 57476 [egg:core] dump config after ready, 6ms
+2020-03-04 23:38:01,806 INFO 57498 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:01,830 INFO 57498 [egg-multipart] stream mode enable
+2020-03-04 23:38:01,831 INFO 57498 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:01,913 INFO 57498 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:01,915 INFO 57498 [egg-security] use csrf middleware
+2020-03-04 23:38:01,916 INFO 57498 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:01,916 INFO 57498 [egg-security] use noopen middleware
+2020-03-04 23:38:01,917 INFO 57498 [egg-security] use nosniff middleware
+2020-03-04 23:38:01,917 INFO 57498 [egg-security] use xssProtection middleware
+2020-03-04 23:38:01,917 INFO 57498 [egg-security] use xframe middleware
+2020-03-04 23:38:01,918 INFO 57498 [egg-security] use dta middleware
+2020-03-04 23:38:01,918 INFO 57498 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:01,924 INFO 57498 [egg:core] dump config after load, 3ms
+2020-03-04 23:38:01,934 INFO 57498 [egg-watcher:application] watcher start success
+2020-03-04 23:38:01,988 INFO 57498 [egg:core] dump config after ready, 6ms
+2020-03-04 23:38:06,194 INFO 57513 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:06,218 INFO 57513 [egg-multipart] stream mode enable
+2020-03-04 23:38:06,219 INFO 57513 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:06,294 INFO 57513 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:06,296 INFO 57513 [egg-security] use csrf middleware
+2020-03-04 23:38:06,296 INFO 57513 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:06,297 INFO 57513 [egg-security] use noopen middleware
+2020-03-04 23:38:06,297 INFO 57513 [egg-security] use nosniff middleware
+2020-03-04 23:38:06,297 INFO 57513 [egg-security] use xssProtection middleware
+2020-03-04 23:38:06,298 INFO 57513 [egg-security] use xframe middleware
+2020-03-04 23:38:06,298 INFO 57513 [egg-security] use dta middleware
+2020-03-04 23:38:06,298 INFO 57513 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:06,304 INFO 57513 [egg:core] dump config after load, 3ms
+2020-03-04 23:38:06,314 INFO 57513 [egg-watcher:application] watcher start success
+2020-03-04 23:38:06,397 INFO 57513 [egg:core] dump config after ready, 6ms
+2020-03-04 23:38:08,540 INFO 57516 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:08,563 INFO 57516 [egg-multipart] stream mode enable
+2020-03-04 23:38:08,564 INFO 57516 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:08,641 INFO 57516 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:08,642 INFO 57516 [egg-security] use csrf middleware
+2020-03-04 23:38:08,643 INFO 57516 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:08,643 INFO 57516 [egg-security] use noopen middleware
+2020-03-04 23:38:08,644 INFO 57516 [egg-security] use nosniff middleware
+2020-03-04 23:38:08,644 INFO 57516 [egg-security] use xssProtection middleware
+2020-03-04 23:38:08,644 INFO 57516 [egg-security] use xframe middleware
+2020-03-04 23:38:08,645 INFO 57516 [egg-security] use dta middleware
+2020-03-04 23:38:08,645 INFO 57516 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:08,651 INFO 57516 [egg:core] dump config after load, 4ms
+2020-03-04 23:38:08,661 INFO 57516 [egg-watcher:application] watcher start success
+2020-03-04 23:38:08,716 INFO 57516 [egg:core] dump config after ready, 5ms
+2020-03-04 23:38:10,336 INFO 57518 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:10,359 INFO 57518 [egg-multipart] stream mode enable
+2020-03-04 23:38:10,360 INFO 57518 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:10,442 INFO 57518 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:10,443 INFO 57518 [egg-security] use csrf middleware
+2020-03-04 23:38:10,444 INFO 57518 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:10,444 INFO 57518 [egg-security] use noopen middleware
+2020-03-04 23:38:10,445 INFO 57518 [egg-security] use nosniff middleware
+2020-03-04 23:38:10,445 INFO 57518 [egg-security] use xssProtection middleware
+2020-03-04 23:38:10,446 INFO 57518 [egg-security] use xframe middleware
+2020-03-04 23:38:10,446 INFO 57518 [egg-security] use dta middleware
+2020-03-04 23:38:10,446 INFO 57518 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:10,453 INFO 57518 [egg:core] dump config after load, 4ms
+2020-03-04 23:38:10,463 INFO 57518 [egg-watcher:application] watcher start success
+2020-03-04 23:38:10,549 INFO 57518 [egg:core] dump config after ready, 6ms
+2020-03-04 23:38:11,261 INFO 57530 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:11,286 INFO 57530 [egg-multipart] stream mode enable
+2020-03-04 23:38:11,287 INFO 57530 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:11,367 INFO 57530 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:11,370 INFO 57530 [egg-security] use csrf middleware
+2020-03-04 23:38:11,371 INFO 57530 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:11,371 INFO 57530 [egg-security] use noopen middleware
+2020-03-04 23:38:11,372 INFO 57530 [egg-security] use nosniff middleware
+2020-03-04 23:38:11,372 INFO 57530 [egg-security] use xssProtection middleware
+2020-03-04 23:38:11,372 INFO 57530 [egg-security] use xframe middleware
+2020-03-04 23:38:11,373 INFO 57530 [egg-security] use dta middleware
+2020-03-04 23:38:11,373 INFO 57530 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:11,379 INFO 57530 [egg:core] dump config after load, 3ms
+2020-03-04 23:38:11,390 INFO 57530 [egg-watcher:application] watcher start success
+2020-03-04 23:38:11,459 INFO 57530 [egg:core] dump config after ready, 6ms
+2020-03-04 23:38:17,927 INFO 57544 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:17,949 INFO 57544 [egg-multipart] stream mode enable
+2020-03-04 23:38:17,950 INFO 57544 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:18,028 INFO 57544 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:18,030 INFO 57544 [egg-security] use csrf middleware
+2020-03-04 23:38:18,030 INFO 57544 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:18,031 INFO 57544 [egg-security] use noopen middleware
+2020-03-04 23:38:18,031 INFO 57544 [egg-security] use nosniff middleware
+2020-03-04 23:38:18,032 INFO 57544 [egg-security] use xssProtection middleware
+2020-03-04 23:38:18,032 INFO 57544 [egg-security] use xframe middleware
+2020-03-04 23:38:18,032 INFO 57544 [egg-security] use dta middleware
+2020-03-04 23:38:18,032 INFO 57544 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:18,038 INFO 57544 [egg:core] dump config after load, 3ms
+2020-03-04 23:38:18,048 INFO 57544 [egg-watcher:application] watcher start success
+2020-03-04 23:38:18,125 INFO 57544 [egg:core] dump config after ready, 5ms
+2020-03-04 23:38:23,804 INFO 57555 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:23,828 INFO 57555 [egg-multipart] stream mode enable
+2020-03-04 23:38:23,828 INFO 57555 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:23,904 INFO 57555 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:23,906 INFO 57555 [egg-security] use csrf middleware
+2020-03-04 23:38:23,907 INFO 57555 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:23,907 INFO 57555 [egg-security] use noopen middleware
+2020-03-04 23:38:23,908 INFO 57555 [egg-security] use nosniff middleware
+2020-03-04 23:38:23,908 INFO 57555 [egg-security] use xssProtection middleware
+2020-03-04 23:38:23,908 INFO 57555 [egg-security] use xframe middleware
+2020-03-04 23:38:23,908 INFO 57555 [egg-security] use dta middleware
+2020-03-04 23:38:23,908 INFO 57555 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:23,915 INFO 57555 [egg:core] dump config after load, 4ms
+2020-03-04 23:38:23,926 INFO 57555 [egg-watcher:application] watcher start success
+2020-03-04 23:38:23,999 INFO 57555 [egg:core] dump config after ready, 6ms
+2020-03-04 23:38:28,451 INFO 57568 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:28,473 INFO 57568 [egg-multipart] stream mode enable
+2020-03-04 23:38:28,474 INFO 57568 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:28,547 INFO 57568 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:28,549 INFO 57568 [egg-security] use csrf middleware
+2020-03-04 23:38:28,550 INFO 57568 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:28,550 INFO 57568 [egg-security] use noopen middleware
+2020-03-04 23:38:28,550 INFO 57568 [egg-security] use nosniff middleware
+2020-03-04 23:38:28,551 INFO 57568 [egg-security] use xssProtection middleware
+2020-03-04 23:38:28,551 INFO 57568 [egg-security] use xframe middleware
+2020-03-04 23:38:28,552 INFO 57568 [egg-security] use dta middleware
+2020-03-04 23:38:28,552 INFO 57568 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:28,557 INFO 57568 [egg:core] dump config after load, 3ms
+2020-03-04 23:38:28,567 INFO 57568 [egg-watcher:application] watcher start success
+2020-03-04 23:38:28,639 INFO 57568 [egg:core] dump config after ready, 6ms
+2020-03-04 23:38:34,290 INFO 57581 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:34,328 INFO 57581 [egg-multipart] stream mode enable
+2020-03-04 23:38:34,329 INFO 57581 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:34,414 INFO 57581 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:34,415 INFO 57581 [egg-security] use csrf middleware
+2020-03-04 23:38:34,416 INFO 57581 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:34,416 INFO 57581 [egg-security] use noopen middleware
+2020-03-04 23:38:34,417 INFO 57581 [egg-security] use nosniff middleware
+2020-03-04 23:38:34,417 INFO 57581 [egg-security] use xssProtection middleware
+2020-03-04 23:38:34,418 INFO 57581 [egg-security] use xframe middleware
+2020-03-04 23:38:34,418 INFO 57581 [egg-security] use dta middleware
+2020-03-04 23:38:34,418 INFO 57581 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:34,425 INFO 57581 [egg:core] dump config after load, 4ms
+2020-03-04 23:38:34,435 INFO 57581 [egg-watcher:application] watcher start success
+2020-03-04 23:38:34,494 INFO 57581 [egg:core] dump config after ready, 6ms
+2020-03-04 23:38:43,638 INFO 57595 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:43,663 INFO 57595 [egg-multipart] stream mode enable
+2020-03-04 23:38:43,664 INFO 57595 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:43,742 INFO 57595 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:43,743 INFO 57595 [egg-security] use csrf middleware
+2020-03-04 23:38:43,744 INFO 57595 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:43,745 INFO 57595 [egg-security] use noopen middleware
+2020-03-04 23:38:43,745 INFO 57595 [egg-security] use nosniff middleware
+2020-03-04 23:38:43,745 INFO 57595 [egg-security] use xssProtection middleware
+2020-03-04 23:38:43,746 INFO 57595 [egg-security] use xframe middleware
+2020-03-04 23:38:43,746 INFO 57595 [egg-security] use dta middleware
+2020-03-04 23:38:43,746 INFO 57595 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:43,752 INFO 57595 [egg:core] dump config after load, 3ms
+2020-03-04 23:38:43,761 INFO 57595 [egg-watcher:application] watcher start success
+2020-03-04 23:38:43,829 INFO 57595 [egg:core] dump config after ready, 5ms
+2020-03-04 23:38:46,866 INFO 57606 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:46,890 INFO 57606 [egg-multipart] stream mode enable
+2020-03-04 23:38:46,891 INFO 57606 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:46,970 INFO 57606 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:46,972 INFO 57606 [egg-security] use csrf middleware
+2020-03-04 23:38:46,972 INFO 57606 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:46,973 INFO 57606 [egg-security] use noopen middleware
+2020-03-04 23:38:46,973 INFO 57606 [egg-security] use nosniff middleware
+2020-03-04 23:38:46,974 INFO 57606 [egg-security] use xssProtection middleware
+2020-03-04 23:38:46,974 INFO 57606 [egg-security] use xframe middleware
+2020-03-04 23:38:46,974 INFO 57606 [egg-security] use dta middleware
+2020-03-04 23:38:46,974 INFO 57606 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:46,980 INFO 57606 [egg:core] dump config after load, 3ms
+2020-03-04 23:38:46,990 INFO 57606 [egg-watcher:application] watcher start success
+2020-03-04 23:38:47,060 INFO 57606 [egg:core] dump config after ready, 5ms
+2020-03-04 23:38:49,015 INFO 57609 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:38:49,036 INFO 57609 [egg-multipart] stream mode enable
+2020-03-04 23:38:49,037 INFO 57609 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:38:49,108 INFO 57609 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:38:49,110 INFO 57609 [egg-security] use csrf middleware
+2020-03-04 23:38:49,111 INFO 57609 [egg-security] use methodnoallow middleware
+2020-03-04 23:38:49,111 INFO 57609 [egg-security] use noopen middleware
+2020-03-04 23:38:49,111 INFO 57609 [egg-security] use nosniff middleware
+2020-03-04 23:38:49,112 INFO 57609 [egg-security] use xssProtection middleware
+2020-03-04 23:38:49,112 INFO 57609 [egg-security] use xframe middleware
+2020-03-04 23:38:49,112 INFO 57609 [egg-security] use dta middleware
+2020-03-04 23:38:49,112 INFO 57609 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:38:49,118 INFO 57609 [egg:core] dump config after load, 3ms
+2020-03-04 23:38:49,128 INFO 57609 [egg-watcher:application] watcher start success
+2020-03-04 23:38:49,205 INFO 57609 [egg:core] dump config after ready, 5ms
+2020-03-04 23:39:00,586 INFO 57633 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:00,608 INFO 57633 [egg-multipart] stream mode enable
+2020-03-04 23:39:00,609 INFO 57633 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:00,684 INFO 57633 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:00,686 INFO 57633 [egg-security] use csrf middleware
+2020-03-04 23:39:00,686 INFO 57633 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:00,687 INFO 57633 [egg-security] use noopen middleware
+2020-03-04 23:39:00,687 INFO 57633 [egg-security] use nosniff middleware
+2020-03-04 23:39:00,687 INFO 57633 [egg-security] use xssProtection middleware
+2020-03-04 23:39:00,688 INFO 57633 [egg-security] use xframe middleware
+2020-03-04 23:39:00,688 INFO 57633 [egg-security] use dta middleware
+2020-03-04 23:39:00,688 INFO 57633 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:00,694 INFO 57633 [egg:core] dump config after load, 4ms
+2020-03-04 23:39:00,704 INFO 57633 [egg-watcher:application] watcher start success
+2020-03-04 23:39:00,769 INFO 57633 [egg:core] dump config after ready, 5ms
+2020-03-04 23:39:01,326 INFO 57636 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:01,349 INFO 57636 [egg-multipart] stream mode enable
+2020-03-04 23:39:01,351 INFO 57636 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:01,431 INFO 57636 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:01,434 INFO 57636 [egg-security] use csrf middleware
+2020-03-04 23:39:01,435 INFO 57636 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:01,435 INFO 57636 [egg-security] use noopen middleware
+2020-03-04 23:39:01,435 INFO 57636 [egg-security] use nosniff middleware
+2020-03-04 23:39:01,436 INFO 57636 [egg-security] use xssProtection middleware
+2020-03-04 23:39:01,436 INFO 57636 [egg-security] use xframe middleware
+2020-03-04 23:39:01,436 INFO 57636 [egg-security] use dta middleware
+2020-03-04 23:39:01,436 INFO 57636 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:01,443 INFO 57636 [egg:core] dump config after load, 4ms
+2020-03-04 23:39:01,453 INFO 57636 [egg-watcher:application] watcher start success
+2020-03-04 23:39:01,521 INFO 57636 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:09,794 INFO 57650 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:09,817 INFO 57650 [egg-multipart] stream mode enable
+2020-03-04 23:39:09,818 INFO 57650 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:09,895 INFO 57650 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:09,897 INFO 57650 [egg-security] use csrf middleware
+2020-03-04 23:39:09,898 INFO 57650 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:09,898 INFO 57650 [egg-security] use noopen middleware
+2020-03-04 23:39:09,899 INFO 57650 [egg-security] use nosniff middleware
+2020-03-04 23:39:09,899 INFO 57650 [egg-security] use xssProtection middleware
+2020-03-04 23:39:09,899 INFO 57650 [egg-security] use xframe middleware
+2020-03-04 23:39:09,900 INFO 57650 [egg-security] use dta middleware
+2020-03-04 23:39:09,900 INFO 57650 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:09,906 INFO 57650 [egg:core] dump config after load, 4ms
+2020-03-04 23:39:09,917 INFO 57650 [egg-watcher:application] watcher start success
+2020-03-04 23:39:09,971 INFO 57650 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:15,166 INFO 57662 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:15,188 INFO 57662 [egg-multipart] stream mode enable
+2020-03-04 23:39:15,189 INFO 57662 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:15,282 INFO 57662 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:15,285 INFO 57662 [egg-security] use csrf middleware
+2020-03-04 23:39:15,286 INFO 57662 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:15,286 INFO 57662 [egg-security] use noopen middleware
+2020-03-04 23:39:15,287 INFO 57662 [egg-security] use nosniff middleware
+2020-03-04 23:39:15,287 INFO 57662 [egg-security] use xssProtection middleware
+2020-03-04 23:39:15,287 INFO 57662 [egg-security] use xframe middleware
+2020-03-04 23:39:15,288 INFO 57662 [egg-security] use dta middleware
+2020-03-04 23:39:15,288 INFO 57662 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:15,293 INFO 57662 [egg:core] dump config after load, 3ms
+2020-03-04 23:39:15,304 INFO 57662 [egg-watcher:application] watcher start success
+2020-03-04 23:39:15,361 INFO 57662 [egg:core] dump config after ready, 4ms
+2020-03-04 23:39:18,655 INFO 57674 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:18,676 INFO 57674 [egg-multipart] stream mode enable
+2020-03-04 23:39:18,677 INFO 57674 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:18,747 INFO 57674 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:18,749 INFO 57674 [egg-security] use csrf middleware
+2020-03-04 23:39:18,749 INFO 57674 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:18,750 INFO 57674 [egg-security] use noopen middleware
+2020-03-04 23:39:18,750 INFO 57674 [egg-security] use nosniff middleware
+2020-03-04 23:39:18,751 INFO 57674 [egg-security] use xssProtection middleware
+2020-03-04 23:39:18,751 INFO 57674 [egg-security] use xframe middleware
+2020-03-04 23:39:18,751 INFO 57674 [egg-security] use dta middleware
+2020-03-04 23:39:18,751 INFO 57674 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:18,758 INFO 57674 [egg:core] dump config after load, 4ms
+2020-03-04 23:39:18,769 INFO 57674 [egg-watcher:application] watcher start success
+2020-03-04 23:39:18,847 INFO 57674 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:22,874 INFO 57686 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:22,897 INFO 57686 [egg-multipart] stream mode enable
+2020-03-04 23:39:22,898 INFO 57686 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:22,978 INFO 57686 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:22,980 INFO 57686 [egg-security] use csrf middleware
+2020-03-04 23:39:22,981 INFO 57686 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:22,981 INFO 57686 [egg-security] use noopen middleware
+2020-03-04 23:39:22,982 INFO 57686 [egg-security] use nosniff middleware
+2020-03-04 23:39:22,983 INFO 57686 [egg-security] use xssProtection middleware
+2020-03-04 23:39:22,983 INFO 57686 [egg-security] use xframe middleware
+2020-03-04 23:39:22,984 INFO 57686 [egg-security] use dta middleware
+2020-03-04 23:39:22,984 INFO 57686 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:22,993 INFO 57686 [egg:core] dump config after load, 5ms
+2020-03-04 23:39:23,003 INFO 57686 [egg-watcher:application] watcher start success
+2020-03-04 23:39:23,058 INFO 57686 [egg:core] dump config after ready, 5ms
+2020-03-04 23:39:29,540 INFO 57699 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:29,563 INFO 57699 [egg-multipart] stream mode enable
+2020-03-04 23:39:29,564 INFO 57699 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:29,641 INFO 57699 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:29,642 INFO 57699 [egg-security] use csrf middleware
+2020-03-04 23:39:29,643 INFO 57699 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:29,643 INFO 57699 [egg-security] use noopen middleware
+2020-03-04 23:39:29,644 INFO 57699 [egg-security] use nosniff middleware
+2020-03-04 23:39:29,644 INFO 57699 [egg-security] use xssProtection middleware
+2020-03-04 23:39:29,645 INFO 57699 [egg-security] use xframe middleware
+2020-03-04 23:39:29,645 INFO 57699 [egg-security] use dta middleware
+2020-03-04 23:39:29,645 INFO 57699 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:29,652 INFO 57699 [egg:core] dump config after load, 3ms
+2020-03-04 23:39:29,662 INFO 57699 [egg-watcher:application] watcher start success
+2020-03-04 23:39:29,725 INFO 57699 [egg:core] dump config after ready, 5ms
+2020-03-04 23:39:31,527 INFO 57702 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:31,551 INFO 57702 [egg-multipart] stream mode enable
+2020-03-04 23:39:31,552 INFO 57702 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:31,621 INFO 57702 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:31,622 INFO 57702 [egg-security] use csrf middleware
+2020-03-04 23:39:31,623 INFO 57702 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:31,623 INFO 57702 [egg-security] use noopen middleware
+2020-03-04 23:39:31,624 INFO 57702 [egg-security] use nosniff middleware
+2020-03-04 23:39:31,624 INFO 57702 [egg-security] use xssProtection middleware
+2020-03-04 23:39:31,624 INFO 57702 [egg-security] use xframe middleware
+2020-03-04 23:39:31,625 INFO 57702 [egg-security] use dta middleware
+2020-03-04 23:39:31,625 INFO 57702 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:31,630 INFO 57702 [egg:core] dump config after load, 3ms
+2020-03-04 23:39:31,640 INFO 57702 [egg-watcher:application] watcher start success
+2020-03-04 23:39:31,722 INFO 57702 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:33,485 INFO 57705 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:33,506 INFO 57705 [egg-multipart] stream mode enable
+2020-03-04 23:39:33,507 INFO 57705 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:33,577 INFO 57705 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:33,578 INFO 57705 [egg-security] use csrf middleware
+2020-03-04 23:39:33,579 INFO 57705 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:33,579 INFO 57705 [egg-security] use noopen middleware
+2020-03-04 23:39:33,580 INFO 57705 [egg-security] use nosniff middleware
+2020-03-04 23:39:33,580 INFO 57705 [egg-security] use xssProtection middleware
+2020-03-04 23:39:33,580 INFO 57705 [egg-security] use xframe middleware
+2020-03-04 23:39:33,581 INFO 57705 [egg-security] use dta middleware
+2020-03-04 23:39:33,581 INFO 57705 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:33,586 INFO 57705 [egg:core] dump config after load, 3ms
+2020-03-04 23:39:33,596 INFO 57705 [egg-watcher:application] watcher start success
+2020-03-04 23:39:33,665 INFO 57705 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:36,520 INFO 57716 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:36,541 INFO 57716 [egg-multipart] stream mode enable
+2020-03-04 23:39:36,542 INFO 57716 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:36,618 INFO 57716 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:36,620 INFO 57716 [egg-security] use csrf middleware
+2020-03-04 23:39:36,620 INFO 57716 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:36,621 INFO 57716 [egg-security] use noopen middleware
+2020-03-04 23:39:36,621 INFO 57716 [egg-security] use nosniff middleware
+2020-03-04 23:39:36,622 INFO 57716 [egg-security] use xssProtection middleware
+2020-03-04 23:39:36,622 INFO 57716 [egg-security] use xframe middleware
+2020-03-04 23:39:36,622 INFO 57716 [egg-security] use dta middleware
+2020-03-04 23:39:36,622 INFO 57716 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:36,628 INFO 57716 [egg:core] dump config after load, 3ms
+2020-03-04 23:39:36,638 INFO 57716 [egg-watcher:application] watcher start success
+2020-03-04 23:39:36,747 INFO 57716 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:39,190 INFO 57720 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:39,214 INFO 57720 [egg-multipart] stream mode enable
+2020-03-04 23:39:39,216 INFO 57720 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:39,300 INFO 57720 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:39,303 INFO 57720 [egg-security] use csrf middleware
+2020-03-04 23:39:39,303 INFO 57720 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:39,304 INFO 57720 [egg-security] use noopen middleware
+2020-03-04 23:39:39,304 INFO 57720 [egg-security] use nosniff middleware
+2020-03-04 23:39:39,305 INFO 57720 [egg-security] use xssProtection middleware
+2020-03-04 23:39:39,305 INFO 57720 [egg-security] use xframe middleware
+2020-03-04 23:39:39,305 INFO 57720 [egg-security] use dta middleware
+2020-03-04 23:39:39,305 INFO 57720 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:39,311 INFO 57720 [egg:core] dump config after load, 3ms
+2020-03-04 23:39:39,322 INFO 57720 [egg-watcher:application] watcher start success
+2020-03-04 23:39:39,420 INFO 57720 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:41,486 INFO 57731 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:41,510 INFO 57731 [egg-multipart] stream mode enable
+2020-03-04 23:39:41,511 INFO 57731 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:41,590 INFO 57731 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:41,592 INFO 57731 [egg-security] use csrf middleware
+2020-03-04 23:39:41,593 INFO 57731 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:41,593 INFO 57731 [egg-security] use noopen middleware
+2020-03-04 23:39:41,593 INFO 57731 [egg-security] use nosniff middleware
+2020-03-04 23:39:41,594 INFO 57731 [egg-security] use xssProtection middleware
+2020-03-04 23:39:41,594 INFO 57731 [egg-security] use xframe middleware
+2020-03-04 23:39:41,594 INFO 57731 [egg-security] use dta middleware
+2020-03-04 23:39:41,594 INFO 57731 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:41,600 INFO 57731 [egg:core] dump config after load, 3ms
+2020-03-04 23:39:41,610 INFO 57731 [egg-watcher:application] watcher start success
+2020-03-04 23:39:41,683 INFO 57731 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:45,377 INFO 57737 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:45,401 INFO 57737 [egg-multipart] stream mode enable
+2020-03-04 23:39:45,402 INFO 57737 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:45,481 INFO 57737 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:45,483 INFO 57737 [egg-security] use csrf middleware
+2020-03-04 23:39:45,484 INFO 57737 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:45,484 INFO 57737 [egg-security] use noopen middleware
+2020-03-04 23:39:45,485 INFO 57737 [egg-security] use nosniff middleware
+2020-03-04 23:39:45,485 INFO 57737 [egg-security] use xssProtection middleware
+2020-03-04 23:39:45,485 INFO 57737 [egg-security] use xframe middleware
+2020-03-04 23:39:45,486 INFO 57737 [egg-security] use dta middleware
+2020-03-04 23:39:45,486 INFO 57737 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:45,493 INFO 57737 [egg:core] dump config after load, 5ms
+2020-03-04 23:39:45,502 INFO 57737 [egg-watcher:application] watcher start success
+2020-03-04 23:39:45,563 INFO 57737 [egg:core] dump config after ready, 4ms
+2020-03-04 23:39:49,721 INFO 57749 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:49,742 INFO 57749 [egg-multipart] stream mode enable
+2020-03-04 23:39:49,743 INFO 57749 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:49,814 INFO 57749 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:49,815 INFO 57749 [egg-security] use csrf middleware
+2020-03-04 23:39:49,816 INFO 57749 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:49,817 INFO 57749 [egg-security] use noopen middleware
+2020-03-04 23:39:49,817 INFO 57749 [egg-security] use nosniff middleware
+2020-03-04 23:39:49,818 INFO 57749 [egg-security] use xssProtection middleware
+2020-03-04 23:39:49,818 INFO 57749 [egg-security] use xframe middleware
+2020-03-04 23:39:49,818 INFO 57749 [egg-security] use dta middleware
+2020-03-04 23:39:49,818 INFO 57749 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:49,825 INFO 57749 [egg:core] dump config after load, 4ms
+2020-03-04 23:39:49,835 INFO 57749 [egg-watcher:application] watcher start success
+2020-03-04 23:39:49,905 INFO 57749 [egg:core] dump config after ready, 5ms
+2020-03-04 23:39:55,187 INFO 57760 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:55,213 INFO 57760 [egg-multipart] stream mode enable
+2020-03-04 23:39:55,213 INFO 57760 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:55,288 INFO 57760 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:55,290 INFO 57760 [egg-security] use csrf middleware
+2020-03-04 23:39:55,290 INFO 57760 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:55,290 INFO 57760 [egg-security] use noopen middleware
+2020-03-04 23:39:55,291 INFO 57760 [egg-security] use nosniff middleware
+2020-03-04 23:39:55,291 INFO 57760 [egg-security] use xssProtection middleware
+2020-03-04 23:39:55,292 INFO 57760 [egg-security] use xframe middleware
+2020-03-04 23:39:55,292 INFO 57760 [egg-security] use dta middleware
+2020-03-04 23:39:55,292 INFO 57760 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:55,298 INFO 57760 [egg:core] dump config after load, 4ms
+2020-03-04 23:39:55,307 INFO 57760 [egg-watcher:application] watcher start success
+2020-03-04 23:39:55,365 INFO 57760 [egg:core] dump config after ready, 6ms
+2020-03-04 23:39:57,000 INFO 57771 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:39:57,024 INFO 57771 [egg-multipart] stream mode enable
+2020-03-04 23:39:57,025 INFO 57771 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:39:57,105 INFO 57771 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:39:57,107 INFO 57771 [egg-security] use csrf middleware
+2020-03-04 23:39:57,108 INFO 57771 [egg-security] use methodnoallow middleware
+2020-03-04 23:39:57,108 INFO 57771 [egg-security] use noopen middleware
+2020-03-04 23:39:57,109 INFO 57771 [egg-security] use nosniff middleware
+2020-03-04 23:39:57,109 INFO 57771 [egg-security] use xssProtection middleware
+2020-03-04 23:39:57,109 INFO 57771 [egg-security] use xframe middleware
+2020-03-04 23:39:57,110 INFO 57771 [egg-security] use dta middleware
+2020-03-04 23:39:57,110 INFO 57771 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:39:57,116 INFO 57771 [egg:core] dump config after load, 4ms
+2020-03-04 23:39:57,125 INFO 57771 [egg-watcher:application] watcher start success
+2020-03-04 23:39:57,183 INFO 57771 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:11,144 INFO 57790 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:11,165 INFO 57790 [egg-multipart] stream mode enable
+2020-03-04 23:40:11,166 INFO 57790 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:11,237 INFO 57790 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:11,239 INFO 57790 [egg-security] use csrf middleware
+2020-03-04 23:40:11,239 INFO 57790 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:11,240 INFO 57790 [egg-security] use noopen middleware
+2020-03-04 23:40:11,240 INFO 57790 [egg-security] use nosniff middleware
+2020-03-04 23:40:11,240 INFO 57790 [egg-security] use xssProtection middleware
+2020-03-04 23:40:11,241 INFO 57790 [egg-security] use xframe middleware
+2020-03-04 23:40:11,241 INFO 57790 [egg-security] use dta middleware
+2020-03-04 23:40:11,241 INFO 57790 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:11,247 INFO 57790 [egg:core] dump config after load, 4ms
+2020-03-04 23:40:11,257 INFO 57790 [egg-watcher:application] watcher start success
+2020-03-04 23:40:11,342 INFO 57790 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:15,090 INFO 57801 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:15,109 INFO 57801 [egg-multipart] stream mode enable
+2020-03-04 23:40:15,110 INFO 57801 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:15,180 INFO 57801 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:15,182 INFO 57801 [egg-security] use csrf middleware
+2020-03-04 23:40:15,182 INFO 57801 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:15,182 INFO 57801 [egg-security] use noopen middleware
+2020-03-04 23:40:15,183 INFO 57801 [egg-security] use nosniff middleware
+2020-03-04 23:40:15,183 INFO 57801 [egg-security] use xssProtection middleware
+2020-03-04 23:40:15,183 INFO 57801 [egg-security] use xframe middleware
+2020-03-04 23:40:15,184 INFO 57801 [egg-security] use dta middleware
+2020-03-04 23:40:15,184 INFO 57801 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:15,189 INFO 57801 [egg:core] dump config after load, 3ms
+2020-03-04 23:40:15,199 INFO 57801 [egg-watcher:application] watcher start success
+2020-03-04 23:40:15,277 INFO 57801 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:16,159 INFO 57803 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:16,187 INFO 57803 [egg-multipart] stream mode enable
+2020-03-04 23:40:16,188 INFO 57803 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:16,272 INFO 57803 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:16,274 INFO 57803 [egg-security] use csrf middleware
+2020-03-04 23:40:16,274 INFO 57803 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:16,275 INFO 57803 [egg-security] use noopen middleware
+2020-03-04 23:40:16,275 INFO 57803 [egg-security] use nosniff middleware
+2020-03-04 23:40:16,276 INFO 57803 [egg-security] use xssProtection middleware
+2020-03-04 23:40:16,276 INFO 57803 [egg-security] use xframe middleware
+2020-03-04 23:40:16,276 INFO 57803 [egg-security] use dta middleware
+2020-03-04 23:40:16,276 INFO 57803 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:16,283 INFO 57803 [egg:core] dump config after load, 4ms
+2020-03-04 23:40:16,293 INFO 57803 [egg-watcher:application] watcher start success
+2020-03-04 23:40:16,362 INFO 57803 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:22,798 INFO 57815 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:22,822 INFO 57815 [egg-multipart] stream mode enable
+2020-03-04 23:40:22,823 INFO 57815 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:22,905 INFO 57815 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:22,907 INFO 57815 [egg-security] use csrf middleware
+2020-03-04 23:40:22,908 INFO 57815 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:22,908 INFO 57815 [egg-security] use noopen middleware
+2020-03-04 23:40:22,908 INFO 57815 [egg-security] use nosniff middleware
+2020-03-04 23:40:22,909 INFO 57815 [egg-security] use xssProtection middleware
+2020-03-04 23:40:22,909 INFO 57815 [egg-security] use xframe middleware
+2020-03-04 23:40:22,909 INFO 57815 [egg-security] use dta middleware
+2020-03-04 23:40:22,909 INFO 57815 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:22,915 INFO 57815 [egg:core] dump config after load, 3ms
+2020-03-04 23:40:22,927 INFO 57815 [egg-watcher:application] watcher start success
+2020-03-04 23:40:22,982 INFO 57815 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:25,221 INFO 57827 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:25,244 INFO 57827 [egg-multipart] stream mode enable
+2020-03-04 23:40:25,245 INFO 57827 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:25,333 INFO 57827 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:25,335 INFO 57827 [egg-security] use csrf middleware
+2020-03-04 23:40:25,335 INFO 57827 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:25,336 INFO 57827 [egg-security] use noopen middleware
+2020-03-04 23:40:25,336 INFO 57827 [egg-security] use nosniff middleware
+2020-03-04 23:40:25,337 INFO 57827 [egg-security] use xssProtection middleware
+2020-03-04 23:40:25,337 INFO 57827 [egg-security] use xframe middleware
+2020-03-04 23:40:25,337 INFO 57827 [egg-security] use dta middleware
+2020-03-04 23:40:25,337 INFO 57827 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:25,345 INFO 57827 [egg:core] dump config after load, 4ms
+2020-03-04 23:40:25,356 INFO 57827 [egg-watcher:application] watcher start success
+2020-03-04 23:40:25,425 INFO 57827 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:31,224 INFO 57841 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:31,246 INFO 57841 [egg-multipart] stream mode enable
+2020-03-04 23:40:31,247 INFO 57841 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:31,326 INFO 57841 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:31,327 INFO 57841 [egg-security] use csrf middleware
+2020-03-04 23:40:31,328 INFO 57841 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:31,328 INFO 57841 [egg-security] use noopen middleware
+2020-03-04 23:40:31,328 INFO 57841 [egg-security] use nosniff middleware
+2020-03-04 23:40:31,329 INFO 57841 [egg-security] use xssProtection middleware
+2020-03-04 23:40:31,329 INFO 57841 [egg-security] use xframe middleware
+2020-03-04 23:40:31,329 INFO 57841 [egg-security] use dta middleware
+2020-03-04 23:40:31,329 INFO 57841 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:31,336 INFO 57841 [egg:core] dump config after load, 4ms
+2020-03-04 23:40:31,346 INFO 57841 [egg-watcher:application] watcher start success
+2020-03-04 23:40:31,408 INFO 57841 [egg:core] dump config after ready, 5ms
+2020-03-04 23:40:34,824 INFO 57846 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:34,845 INFO 57846 [egg-multipart] stream mode enable
+2020-03-04 23:40:34,846 INFO 57846 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:34,927 INFO 57846 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:34,929 INFO 57846 [egg-security] use csrf middleware
+2020-03-04 23:40:34,930 INFO 57846 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:34,930 INFO 57846 [egg-security] use noopen middleware
+2020-03-04 23:40:34,931 INFO 57846 [egg-security] use nosniff middleware
+2020-03-04 23:40:34,932 INFO 57846 [egg-security] use xssProtection middleware
+2020-03-04 23:40:34,932 INFO 57846 [egg-security] use xframe middleware
+2020-03-04 23:40:34,932 INFO 57846 [egg-security] use dta middleware
+2020-03-04 23:40:34,932 INFO 57846 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:34,940 INFO 57846 [egg:core] dump config after load, 5ms
+2020-03-04 23:40:34,950 INFO 57846 [egg-watcher:application] watcher start success
+2020-03-04 23:40:35,043 INFO 57846 [egg:core] dump config after ready, 5ms
+2020-03-04 23:40:43,213 INFO 57868 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:43,236 INFO 57868 [egg-multipart] stream mode enable
+2020-03-04 23:40:43,237 INFO 57868 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:43,311 INFO 57868 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:43,313 INFO 57868 [egg-security] use csrf middleware
+2020-03-04 23:40:43,314 INFO 57868 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:43,314 INFO 57868 [egg-security] use noopen middleware
+2020-03-04 23:40:43,314 INFO 57868 [egg-security] use nosniff middleware
+2020-03-04 23:40:43,315 INFO 57868 [egg-security] use xssProtection middleware
+2020-03-04 23:40:43,315 INFO 57868 [egg-security] use xframe middleware
+2020-03-04 23:40:43,315 INFO 57868 [egg-security] use dta middleware
+2020-03-04 23:40:43,315 INFO 57868 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:43,322 INFO 57868 [egg:core] dump config after load, 4ms
+2020-03-04 23:40:43,331 INFO 57868 [egg-watcher:application] watcher start success
+2020-03-04 23:40:43,406 INFO 57868 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:46,141 INFO 57878 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:46,164 INFO 57878 [egg-multipart] stream mode enable
+2020-03-04 23:40:46,165 INFO 57878 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:46,241 INFO 57878 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:46,242 INFO 57878 [egg-security] use csrf middleware
+2020-03-04 23:40:46,243 INFO 57878 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:46,243 INFO 57878 [egg-security] use noopen middleware
+2020-03-04 23:40:46,244 INFO 57878 [egg-security] use nosniff middleware
+2020-03-04 23:40:46,244 INFO 57878 [egg-security] use xssProtection middleware
+2020-03-04 23:40:46,244 INFO 57878 [egg-security] use xframe middleware
+2020-03-04 23:40:46,245 INFO 57878 [egg-security] use dta middleware
+2020-03-04 23:40:46,245 INFO 57878 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:46,251 INFO 57878 [egg:core] dump config after load, 4ms
+2020-03-04 23:40:46,261 INFO 57878 [egg-watcher:application] watcher start success
+2020-03-04 23:40:46,343 INFO 57878 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:50,355 INFO 57890 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:50,378 INFO 57890 [egg-multipart] stream mode enable
+2020-03-04 23:40:50,379 INFO 57890 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:50,455 INFO 57890 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:50,457 INFO 57890 [egg-security] use csrf middleware
+2020-03-04 23:40:50,458 INFO 57890 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:50,458 INFO 57890 [egg-security] use noopen middleware
+2020-03-04 23:40:50,458 INFO 57890 [egg-security] use nosniff middleware
+2020-03-04 23:40:50,459 INFO 57890 [egg-security] use xssProtection middleware
+2020-03-04 23:40:50,459 INFO 57890 [egg-security] use xframe middleware
+2020-03-04 23:40:50,459 INFO 57890 [egg-security] use dta middleware
+2020-03-04 23:40:50,459 INFO 57890 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:50,466 INFO 57890 [egg:core] dump config after load, 3ms
+2020-03-04 23:40:50,477 INFO 57890 [egg-watcher:application] watcher start success
+2020-03-04 23:40:50,554 INFO 57890 [egg:core] dump config after ready, 5ms
+2020-03-04 23:40:54,000 INFO 57896 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:54,023 INFO 57896 [egg-multipart] stream mode enable
+2020-03-04 23:40:54,024 INFO 57896 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:54,112 INFO 57896 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:54,114 INFO 57896 [egg-security] use csrf middleware
+2020-03-04 23:40:54,115 INFO 57896 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:54,115 INFO 57896 [egg-security] use noopen middleware
+2020-03-04 23:40:54,115 INFO 57896 [egg-security] use nosniff middleware
+2020-03-04 23:40:54,116 INFO 57896 [egg-security] use xssProtection middleware
+2020-03-04 23:40:54,116 INFO 57896 [egg-security] use xframe middleware
+2020-03-04 23:40:54,116 INFO 57896 [egg-security] use dta middleware
+2020-03-04 23:40:54,116 INFO 57896 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:54,124 INFO 57896 [egg:core] dump config after load, 5ms
+2020-03-04 23:40:54,134 INFO 57896 [egg-watcher:application] watcher start success
+2020-03-04 23:40:54,332 INFO 57896 [egg:core] dump config after ready, 6ms
+2020-03-04 23:40:57,828 INFO 57907 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:40:57,850 INFO 57907 [egg-multipart] stream mode enable
+2020-03-04 23:40:57,852 INFO 57907 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:40:57,932 INFO 57907 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:40:57,934 INFO 57907 [egg-security] use csrf middleware
+2020-03-04 23:40:57,935 INFO 57907 [egg-security] use methodnoallow middleware
+2020-03-04 23:40:57,935 INFO 57907 [egg-security] use noopen middleware
+2020-03-04 23:40:57,936 INFO 57907 [egg-security] use nosniff middleware
+2020-03-04 23:40:57,936 INFO 57907 [egg-security] use xssProtection middleware
+2020-03-04 23:40:57,936 INFO 57907 [egg-security] use xframe middleware
+2020-03-04 23:40:57,937 INFO 57907 [egg-security] use dta middleware
+2020-03-04 23:40:57,937 INFO 57907 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:40:57,944 INFO 57907 [egg:core] dump config after load, 3ms
+2020-03-04 23:40:57,954 INFO 57907 [egg-watcher:application] watcher start success
+2020-03-04 23:40:58,019 INFO 57907 [egg:core] dump config after ready, 5ms
+2020-03-04 23:41:01,990 INFO 57922 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:02,020 INFO 57922 [egg-multipart] stream mode enable
+2020-03-04 23:41:02,021 INFO 57922 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:02,107 INFO 57922 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:02,110 INFO 57922 [egg-security] use csrf middleware
+2020-03-04 23:41:02,110 INFO 57922 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:02,111 INFO 57922 [egg-security] use noopen middleware
+2020-03-04 23:41:02,111 INFO 57922 [egg-security] use nosniff middleware
+2020-03-04 23:41:02,111 INFO 57922 [egg-security] use xssProtection middleware
+2020-03-04 23:41:02,112 INFO 57922 [egg-security] use xframe middleware
+2020-03-04 23:41:02,112 INFO 57922 [egg-security] use dta middleware
+2020-03-04 23:41:02,112 INFO 57922 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:02,118 INFO 57922 [egg:core] dump config after load, 3ms
+2020-03-04 23:41:02,128 INFO 57922 [egg-watcher:application] watcher start success
+2020-03-04 23:41:02,197 INFO 57922 [egg:core] dump config after ready, 5ms
+2020-03-04 23:41:07,791 INFO 57936 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:07,816 INFO 57936 [egg-multipart] stream mode enable
+2020-03-04 23:41:07,817 INFO 57936 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:07,894 INFO 57936 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:07,896 INFO 57936 [egg-security] use csrf middleware
+2020-03-04 23:41:07,896 INFO 57936 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:07,897 INFO 57936 [egg-security] use noopen middleware
+2020-03-04 23:41:07,897 INFO 57936 [egg-security] use nosniff middleware
+2020-03-04 23:41:07,898 INFO 57936 [egg-security] use xssProtection middleware
+2020-03-04 23:41:07,898 INFO 57936 [egg-security] use xframe middleware
+2020-03-04 23:41:07,898 INFO 57936 [egg-security] use dta middleware
+2020-03-04 23:41:07,898 INFO 57936 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:07,904 INFO 57936 [egg:core] dump config after load, 3ms
+2020-03-04 23:41:07,914 INFO 57936 [egg-watcher:application] watcher start success
+2020-03-04 23:41:07,978 INFO 57936 [egg:core] dump config after ready, 6ms
+2020-03-04 23:41:12,029 INFO 57947 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:12,049 INFO 57947 [egg-multipart] stream mode enable
+2020-03-04 23:41:12,050 INFO 57947 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:12,135 INFO 57947 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:12,137 INFO 57947 [egg-security] use csrf middleware
+2020-03-04 23:41:12,137 INFO 57947 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:12,138 INFO 57947 [egg-security] use noopen middleware
+2020-03-04 23:41:12,138 INFO 57947 [egg-security] use nosniff middleware
+2020-03-04 23:41:12,139 INFO 57947 [egg-security] use xssProtection middleware
+2020-03-04 23:41:12,139 INFO 57947 [egg-security] use xframe middleware
+2020-03-04 23:41:12,139 INFO 57947 [egg-security] use dta middleware
+2020-03-04 23:41:12,139 INFO 57947 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:12,145 INFO 57947 [egg:core] dump config after load, 3ms
+2020-03-04 23:41:12,155 INFO 57947 [egg-watcher:application] watcher start success
+2020-03-04 23:41:12,210 INFO 57947 [egg:core] dump config after ready, 5ms
+2020-03-04 23:41:13,488 INFO 57949 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:13,511 INFO 57949 [egg-multipart] stream mode enable
+2020-03-04 23:41:13,512 INFO 57949 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:13,588 INFO 57949 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:13,590 INFO 57949 [egg-security] use csrf middleware
+2020-03-04 23:41:13,591 INFO 57949 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:13,591 INFO 57949 [egg-security] use noopen middleware
+2020-03-04 23:41:13,591 INFO 57949 [egg-security] use nosniff middleware
+2020-03-04 23:41:13,592 INFO 57949 [egg-security] use xssProtection middleware
+2020-03-04 23:41:13,592 INFO 57949 [egg-security] use xframe middleware
+2020-03-04 23:41:13,592 INFO 57949 [egg-security] use dta middleware
+2020-03-04 23:41:13,592 INFO 57949 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:13,598 INFO 57949 [egg:core] dump config after load, 3ms
+2020-03-04 23:41:13,608 INFO 57949 [egg-watcher:application] watcher start success
+2020-03-04 23:41:13,717 INFO 57949 [egg:core] dump config after ready, 5ms
+2020-03-04 23:41:19,266 INFO 57961 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:19,289 INFO 57961 [egg-multipart] stream mode enable
+2020-03-04 23:41:19,290 INFO 57961 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:19,376 INFO 57961 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:19,378 INFO 57961 [egg-security] use csrf middleware
+2020-03-04 23:41:19,379 INFO 57961 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:19,379 INFO 57961 [egg-security] use noopen middleware
+2020-03-04 23:41:19,379 INFO 57961 [egg-security] use nosniff middleware
+2020-03-04 23:41:19,380 INFO 57961 [egg-security] use xssProtection middleware
+2020-03-04 23:41:19,380 INFO 57961 [egg-security] use xframe middleware
+2020-03-04 23:41:19,380 INFO 57961 [egg-security] use dta middleware
+2020-03-04 23:41:19,381 INFO 57961 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:19,386 INFO 57961 [egg:core] dump config after load, 3ms
+2020-03-04 23:41:19,396 INFO 57961 [egg-watcher:application] watcher start success
+2020-03-04 23:41:19,479 INFO 57961 [egg:core] dump config after ready, 6ms
+2020-03-04 23:41:21,100 INFO 57963 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:21,124 INFO 57963 [egg-multipart] stream mode enable
+2020-03-04 23:41:21,125 INFO 57963 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:21,200 INFO 57963 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:21,202 INFO 57963 [egg-security] use csrf middleware
+2020-03-04 23:41:21,202 INFO 57963 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:21,203 INFO 57963 [egg-security] use noopen middleware
+2020-03-04 23:41:21,203 INFO 57963 [egg-security] use nosniff middleware
+2020-03-04 23:41:21,203 INFO 57963 [egg-security] use xssProtection middleware
+2020-03-04 23:41:21,204 INFO 57963 [egg-security] use xframe middleware
+2020-03-04 23:41:21,204 INFO 57963 [egg-security] use dta middleware
+2020-03-04 23:41:21,204 INFO 57963 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:21,211 INFO 57963 [egg:core] dump config after load, 5ms
+2020-03-04 23:41:21,223 INFO 57963 [egg-watcher:application] watcher start success
+2020-03-04 23:41:21,291 INFO 57963 [egg:core] dump config after ready, 6ms
+2020-03-04 23:41:37,577 INFO 58002 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:37,598 INFO 58002 [egg-multipart] stream mode enable
+2020-03-04 23:41:37,599 INFO 58002 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:37,674 INFO 58002 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:37,675 INFO 58002 [egg-security] use csrf middleware
+2020-03-04 23:41:37,676 INFO 58002 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:37,676 INFO 58002 [egg-security] use noopen middleware
+2020-03-04 23:41:37,677 INFO 58002 [egg-security] use nosniff middleware
+2020-03-04 23:41:37,677 INFO 58002 [egg-security] use xssProtection middleware
+2020-03-04 23:41:37,678 INFO 58002 [egg-security] use xframe middleware
+2020-03-04 23:41:37,678 INFO 58002 [egg-security] use dta middleware
+2020-03-04 23:41:37,678 INFO 58002 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:37,685 INFO 58002 [egg:core] dump config after load, 4ms
+2020-03-04 23:41:37,696 INFO 58002 [egg-watcher:application] watcher start success
+2020-03-04 23:41:37,741 INFO 58002 [egg:core] dump config after ready, 5ms
+2020-03-04 23:41:39,207 INFO 58004 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:39,229 INFO 58004 [egg-multipart] stream mode enable
+2020-03-04 23:41:39,230 INFO 58004 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:39,300 INFO 58004 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:39,301 INFO 58004 [egg-security] use csrf middleware
+2020-03-04 23:41:39,302 INFO 58004 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:39,302 INFO 58004 [egg-security] use noopen middleware
+2020-03-04 23:41:39,302 INFO 58004 [egg-security] use nosniff middleware
+2020-03-04 23:41:39,303 INFO 58004 [egg-security] use xssProtection middleware
+2020-03-04 23:41:39,303 INFO 58004 [egg-security] use xframe middleware
+2020-03-04 23:41:39,303 INFO 58004 [egg-security] use dta middleware
+2020-03-04 23:41:39,303 INFO 58004 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:39,309 INFO 58004 [egg:core] dump config after load, 3ms
+2020-03-04 23:41:39,319 INFO 58004 [egg-watcher:application] watcher start success
+2020-03-04 23:41:39,393 INFO 58004 [egg:core] dump config after ready, 6ms
+2020-03-04 23:41:44,723 INFO 58018 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:44,746 INFO 58018 [egg-multipart] stream mode enable
+2020-03-04 23:41:44,747 INFO 58018 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:44,821 INFO 58018 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:44,823 INFO 58018 [egg-security] use csrf middleware
+2020-03-04 23:41:44,824 INFO 58018 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:44,824 INFO 58018 [egg-security] use noopen middleware
+2020-03-04 23:41:44,824 INFO 58018 [egg-security] use nosniff middleware
+2020-03-04 23:41:44,825 INFO 58018 [egg-security] use xssProtection middleware
+2020-03-04 23:41:44,825 INFO 58018 [egg-security] use xframe middleware
+2020-03-04 23:41:44,825 INFO 58018 [egg-security] use dta middleware
+2020-03-04 23:41:44,825 INFO 58018 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:44,831 INFO 58018 [egg:core] dump config after load, 3ms
+2020-03-04 23:41:44,841 INFO 58018 [egg-watcher:application] watcher start success
+2020-03-04 23:41:44,912 INFO 58018 [egg:core] dump config after ready, 7ms
+2020-03-04 23:41:46,186 INFO 58025 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:46,210 INFO 58025 [egg-multipart] stream mode enable
+2020-03-04 23:41:46,211 INFO 58025 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:46,294 INFO 58025 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:46,296 INFO 58025 [egg-security] use csrf middleware
+2020-03-04 23:41:46,297 INFO 58025 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:46,297 INFO 58025 [egg-security] use noopen middleware
+2020-03-04 23:41:46,298 INFO 58025 [egg-security] use nosniff middleware
+2020-03-04 23:41:46,298 INFO 58025 [egg-security] use xssProtection middleware
+2020-03-04 23:41:46,298 INFO 58025 [egg-security] use xframe middleware
+2020-03-04 23:41:46,299 INFO 58025 [egg-security] use dta middleware
+2020-03-04 23:41:46,299 INFO 58025 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:46,305 INFO 58025 [egg:core] dump config after load, 4ms
+2020-03-04 23:41:46,316 INFO 58025 [egg-watcher:application] watcher start success
+2020-03-04 23:41:46,368 INFO 58025 [egg:core] dump config after ready, 5ms
+2020-03-04 23:41:52,480 INFO 58046 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:41:52,501 INFO 58046 [egg-multipart] stream mode enable
+2020-03-04 23:41:52,502 INFO 58046 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:41:52,572 INFO 58046 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:41:52,574 INFO 58046 [egg-security] use csrf middleware
+2020-03-04 23:41:52,574 INFO 58046 [egg-security] use methodnoallow middleware
+2020-03-04 23:41:52,574 INFO 58046 [egg-security] use noopen middleware
+2020-03-04 23:41:52,575 INFO 58046 [egg-security] use nosniff middleware
+2020-03-04 23:41:52,575 INFO 58046 [egg-security] use xssProtection middleware
+2020-03-04 23:41:52,576 INFO 58046 [egg-security] use xframe middleware
+2020-03-04 23:41:52,576 INFO 58046 [egg-security] use dta middleware
+2020-03-04 23:41:52,576 INFO 58046 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:41:52,582 INFO 58046 [egg:core] dump config after load, 4ms
+2020-03-04 23:41:52,592 INFO 58046 [egg-watcher:application] watcher start success
+2020-03-04 23:41:52,650 INFO 58046 [egg:core] dump config after ready, 5ms
+2020-03-04 23:42:10,026 INFO 58064 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:42:10,049 INFO 58064 [egg-multipart] stream mode enable
+2020-03-04 23:42:10,050 INFO 58064 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:42:10,123 INFO 58064 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:42:10,125 INFO 58064 [egg-security] use csrf middleware
+2020-03-04 23:42:10,125 INFO 58064 [egg-security] use methodnoallow middleware
+2020-03-04 23:42:10,126 INFO 58064 [egg-security] use noopen middleware
+2020-03-04 23:42:10,126 INFO 58064 [egg-security] use nosniff middleware
+2020-03-04 23:42:10,126 INFO 58064 [egg-security] use xssProtection middleware
+2020-03-04 23:42:10,127 INFO 58064 [egg-security] use xframe middleware
+2020-03-04 23:42:10,127 INFO 58064 [egg-security] use dta middleware
+2020-03-04 23:42:10,127 INFO 58064 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:42:10,133 INFO 58064 [egg:core] dump config after load, 4ms
+2020-03-04 23:42:10,143 INFO 58064 [egg-watcher:application] watcher start success
+2020-03-04 23:42:10,216 INFO 58064 [egg:core] dump config after ready, 6ms
+2020-03-04 23:42:26,526 INFO 58087 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:42:26,551 INFO 58087 [egg-multipart] stream mode enable
+2020-03-04 23:42:26,553 INFO 58087 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:42:26,632 INFO 58087 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:42:26,633 INFO 58087 [egg-security] use csrf middleware
+2020-03-04 23:42:26,634 INFO 58087 [egg-security] use methodnoallow middleware
+2020-03-04 23:42:26,634 INFO 58087 [egg-security] use noopen middleware
+2020-03-04 23:42:26,635 INFO 58087 [egg-security] use nosniff middleware
+2020-03-04 23:42:26,635 INFO 58087 [egg-security] use xssProtection middleware
+2020-03-04 23:42:26,636 INFO 58087 [egg-security] use xframe middleware
+2020-03-04 23:42:26,636 INFO 58087 [egg-security] use dta middleware
+2020-03-04 23:42:26,636 INFO 58087 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:42:26,642 INFO 58087 [egg:core] dump config after load, 3ms
+2020-03-04 23:42:26,653 INFO 58087 [egg-watcher:application] watcher start success
+2020-03-04 23:42:26,706 INFO 58087 [egg:core] dump config after ready, 5ms
+2020-03-04 23:42:37,871 INFO 58102 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:42:37,896 INFO 58102 [egg-multipart] stream mode enable
+2020-03-04 23:42:37,897 INFO 58102 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:42:37,970 INFO 58102 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:42:37,972 INFO 58102 [egg-security] use csrf middleware
+2020-03-04 23:42:37,973 INFO 58102 [egg-security] use methodnoallow middleware
+2020-03-04 23:42:37,973 INFO 58102 [egg-security] use noopen middleware
+2020-03-04 23:42:37,974 INFO 58102 [egg-security] use nosniff middleware
+2020-03-04 23:42:37,974 INFO 58102 [egg-security] use xssProtection middleware
+2020-03-04 23:42:37,974 INFO 58102 [egg-security] use xframe middleware
+2020-03-04 23:42:37,975 INFO 58102 [egg-security] use dta middleware
+2020-03-04 23:42:37,975 INFO 58102 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:42:37,981 INFO 58102 [egg:core] dump config after load, 4ms
+2020-03-04 23:42:37,991 INFO 58102 [egg-watcher:application] watcher start success
+2020-03-04 23:42:38,043 INFO 58102 [egg:core] dump config after ready, 6ms
+2020-03-04 23:42:47,215 INFO 58117 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:42:47,236 INFO 58117 [egg-multipart] stream mode enable
+2020-03-04 23:42:47,237 INFO 58117 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:42:47,307 INFO 58117 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:42:47,308 INFO 58117 [egg-security] use csrf middleware
+2020-03-04 23:42:47,309 INFO 58117 [egg-security] use methodnoallow middleware
+2020-03-04 23:42:47,309 INFO 58117 [egg-security] use noopen middleware
+2020-03-04 23:42:47,310 INFO 58117 [egg-security] use nosniff middleware
+2020-03-04 23:42:47,310 INFO 58117 [egg-security] use xssProtection middleware
+2020-03-04 23:42:47,310 INFO 58117 [egg-security] use xframe middleware
+2020-03-04 23:42:47,310 INFO 58117 [egg-security] use dta middleware
+2020-03-04 23:42:47,310 INFO 58117 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:42:47,317 INFO 58117 [egg:core] dump config after load, 3ms
+2020-03-04 23:42:47,326 INFO 58117 [egg-watcher:application] watcher start success
+2020-03-04 23:42:47,413 INFO 58117 [egg:core] dump config after ready, 6ms
+2020-03-04 23:42:55,979 INFO 58130 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:42:56,001 INFO 58130 [egg-multipart] stream mode enable
+2020-03-04 23:42:56,002 INFO 58130 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:42:56,074 INFO 58130 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:42:56,076 INFO 58130 [egg-security] use csrf middleware
+2020-03-04 23:42:56,076 INFO 58130 [egg-security] use methodnoallow middleware
+2020-03-04 23:42:56,076 INFO 58130 [egg-security] use noopen middleware
+2020-03-04 23:42:56,077 INFO 58130 [egg-security] use nosniff middleware
+2020-03-04 23:42:56,077 INFO 58130 [egg-security] use xssProtection middleware
+2020-03-04 23:42:56,078 INFO 58130 [egg-security] use xframe middleware
+2020-03-04 23:42:56,078 INFO 58130 [egg-security] use dta middleware
+2020-03-04 23:42:56,078 INFO 58130 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:42:56,084 INFO 58130 [egg:core] dump config after load, 4ms
+2020-03-04 23:42:56,094 INFO 58130 [egg-watcher:application] watcher start success
+2020-03-04 23:42:56,160 INFO 58130 [egg:core] dump config after ready, 6ms
+2020-03-04 23:42:57,180 INFO 58132 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:42:57,202 INFO 58132 [egg-multipart] stream mode enable
+2020-03-04 23:42:57,203 INFO 58132 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:42:57,278 INFO 58132 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:42:57,280 INFO 58132 [egg-security] use csrf middleware
+2020-03-04 23:42:57,281 INFO 58132 [egg-security] use methodnoallow middleware
+2020-03-04 23:42:57,281 INFO 58132 [egg-security] use noopen middleware
+2020-03-04 23:42:57,282 INFO 58132 [egg-security] use nosniff middleware
+2020-03-04 23:42:57,282 INFO 58132 [egg-security] use xssProtection middleware
+2020-03-04 23:42:57,282 INFO 58132 [egg-security] use xframe middleware
+2020-03-04 23:42:57,283 INFO 58132 [egg-security] use dta middleware
+2020-03-04 23:42:57,283 INFO 58132 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:42:57,289 INFO 58132 [egg:core] dump config after load, 4ms
+2020-03-04 23:42:57,298 INFO 58132 [egg-watcher:application] watcher start success
+2020-03-04 23:42:57,362 INFO 58132 [egg:core] dump config after ready, 6ms
+2020-03-04 23:42:58,745 INFO 58134 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:42:58,767 INFO 58134 [egg-multipart] stream mode enable
+2020-03-04 23:42:58,768 INFO 58134 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:42:58,851 INFO 58134 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:42:58,854 INFO 58134 [egg-security] use csrf middleware
+2020-03-04 23:42:58,854 INFO 58134 [egg-security] use methodnoallow middleware
+2020-03-04 23:42:58,855 INFO 58134 [egg-security] use noopen middleware
+2020-03-04 23:42:58,855 INFO 58134 [egg-security] use nosniff middleware
+2020-03-04 23:42:58,855 INFO 58134 [egg-security] use xssProtection middleware
+2020-03-04 23:42:58,856 INFO 58134 [egg-security] use xframe middleware
+2020-03-04 23:42:58,856 INFO 58134 [egg-security] use dta middleware
+2020-03-04 23:42:58,856 INFO 58134 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:42:58,863 INFO 58134 [egg:core] dump config after load, 4ms
+2020-03-04 23:42:58,872 INFO 58134 [egg-watcher:application] watcher start success
+2020-03-04 23:42:58,958 INFO 58134 [egg:core] dump config after ready, 6ms
+2020-03-04 23:43:04,843 INFO 58147 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:43:04,865 INFO 58147 [egg-multipart] stream mode enable
+2020-03-04 23:43:04,866 INFO 58147 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:43:04,942 INFO 58147 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:43:04,944 INFO 58147 [egg-security] use csrf middleware
+2020-03-04 23:43:04,945 INFO 58147 [egg-security] use methodnoallow middleware
+2020-03-04 23:43:04,945 INFO 58147 [egg-security] use noopen middleware
+2020-03-04 23:43:04,945 INFO 58147 [egg-security] use nosniff middleware
+2020-03-04 23:43:04,946 INFO 58147 [egg-security] use xssProtection middleware
+2020-03-04 23:43:04,946 INFO 58147 [egg-security] use xframe middleware
+2020-03-04 23:43:04,946 INFO 58147 [egg-security] use dta middleware
+2020-03-04 23:43:04,946 INFO 58147 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:43:04,953 INFO 58147 [egg:core] dump config after load, 4ms
+2020-03-04 23:43:04,963 INFO 58147 [egg-watcher:application] watcher start success
+2020-03-04 23:43:05,043 INFO 58147 [egg:core] dump config after ready, 6ms
+2020-03-04 23:43:09,029 INFO 58164 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:43:09,053 INFO 58164 [egg-multipart] stream mode enable
+2020-03-04 23:43:09,053 INFO 58164 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:43:09,131 INFO 58164 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:43:09,132 INFO 58164 [egg-security] use csrf middleware
+2020-03-04 23:43:09,133 INFO 58164 [egg-security] use methodnoallow middleware
+2020-03-04 23:43:09,133 INFO 58164 [egg-security] use noopen middleware
+2020-03-04 23:43:09,134 INFO 58164 [egg-security] use nosniff middleware
+2020-03-04 23:43:09,134 INFO 58164 [egg-security] use xssProtection middleware
+2020-03-04 23:43:09,134 INFO 58164 [egg-security] use xframe middleware
+2020-03-04 23:43:09,134 INFO 58164 [egg-security] use dta middleware
+2020-03-04 23:43:09,134 INFO 58164 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:43:09,140 INFO 58164 [egg:core] dump config after load, 3ms
+2020-03-04 23:43:09,150 INFO 58164 [egg-watcher:application] watcher start success
+2020-03-04 23:43:09,211 INFO 58164 [egg:core] dump config after ready, 6ms
+2020-03-04 23:43:20,477 INFO 58188 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:43:20,498 INFO 58188 [egg-multipart] stream mode enable
+2020-03-04 23:43:20,499 INFO 58188 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:43:20,575 INFO 58188 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:43:20,576 INFO 58188 [egg-security] use csrf middleware
+2020-03-04 23:43:20,577 INFO 58188 [egg-security] use methodnoallow middleware
+2020-03-04 23:43:20,577 INFO 58188 [egg-security] use noopen middleware
+2020-03-04 23:43:20,578 INFO 58188 [egg-security] use nosniff middleware
+2020-03-04 23:43:20,578 INFO 58188 [egg-security] use xssProtection middleware
+2020-03-04 23:43:20,578 INFO 58188 [egg-security] use xframe middleware
+2020-03-04 23:43:20,579 INFO 58188 [egg-security] use dta middleware
+2020-03-04 23:43:20,579 INFO 58188 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:43:20,584 INFO 58188 [egg:core] dump config after load, 3ms
+2020-03-04 23:43:20,594 INFO 58188 [egg-watcher:application] watcher start success
+2020-03-04 23:43:20,681 INFO 58188 [egg:core] dump config after ready, 6ms
+2020-03-04 23:43:24,987 INFO 58201 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:43:25,008 INFO 58201 [egg-multipart] stream mode enable
+2020-03-04 23:43:25,009 INFO 58201 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:43:25,083 INFO 58201 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:43:25,085 INFO 58201 [egg-security] use csrf middleware
+2020-03-04 23:43:25,086 INFO 58201 [egg-security] use methodnoallow middleware
+2020-03-04 23:43:25,086 INFO 58201 [egg-security] use noopen middleware
+2020-03-04 23:43:25,087 INFO 58201 [egg-security] use nosniff middleware
+2020-03-04 23:43:25,087 INFO 58201 [egg-security] use xssProtection middleware
+2020-03-04 23:43:25,087 INFO 58201 [egg-security] use xframe middleware
+2020-03-04 23:43:25,088 INFO 58201 [egg-security] use dta middleware
+2020-03-04 23:43:25,088 INFO 58201 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:43:25,093 INFO 58201 [egg:core] dump config after load, 3ms
+2020-03-04 23:43:25,103 INFO 58201 [egg-watcher:application] watcher start success
+2020-03-04 23:43:25,178 INFO 58201 [egg:core] dump config after ready, 6ms
+2020-03-04 23:43:26,521 INFO 58204 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:43:26,544 INFO 58204 [egg-multipart] stream mode enable
+2020-03-04 23:43:26,545 INFO 58204 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:43:26,624 INFO 58204 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:43:26,625 INFO 58204 [egg-security] use csrf middleware
+2020-03-04 23:43:26,626 INFO 58204 [egg-security] use methodnoallow middleware
+2020-03-04 23:43:26,626 INFO 58204 [egg-security] use noopen middleware
+2020-03-04 23:43:26,627 INFO 58204 [egg-security] use nosniff middleware
+2020-03-04 23:43:26,627 INFO 58204 [egg-security] use xssProtection middleware
+2020-03-04 23:43:26,627 INFO 58204 [egg-security] use xframe middleware
+2020-03-04 23:43:26,627 INFO 58204 [egg-security] use dta middleware
+2020-03-04 23:43:26,628 INFO 58204 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:43:26,633 INFO 58204 [egg:core] dump config after load, 3ms
+2020-03-04 23:43:26,644 INFO 58204 [egg-watcher:application] watcher start success
+2020-03-04 23:43:26,771 INFO 58204 [egg:core] dump config after ready, 6ms
+2020-03-04 23:43:31,484 INFO 58218 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:43:31,509 INFO 58218 [egg-multipart] stream mode enable
+2020-03-04 23:43:31,510 INFO 58218 [egg-mysql] connecting ***@120.78.78.155:3306/server_page
+2020-03-04 23:43:31,593 INFO 58218 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:43:31,595 INFO 58218 [egg-security] use csrf middleware
+2020-03-04 23:43:31,596 INFO 58218 [egg-security] use methodnoallow middleware
+2020-03-04 23:43:31,596 INFO 58218 [egg-security] use noopen middleware
+2020-03-04 23:43:31,597 INFO 58218 [egg-security] use nosniff middleware
+2020-03-04 23:43:31,597 INFO 58218 [egg-security] use xssProtection middleware
+2020-03-04 23:43:31,598 INFO 58218 [egg-security] use xframe middleware
+2020-03-04 23:43:31,598 INFO 58218 [egg-security] use dta middleware
+2020-03-04 23:43:31,598 INFO 58218 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:43:31,604 INFO 58218 [egg:core] dump config after load, 3ms
+2020-03-04 23:43:31,614 INFO 58218 [egg-watcher:application] watcher start success
+2020-03-04 23:43:31,671 INFO 58218 [egg:core] dump config after ready, 7ms
+2020-03-04 23:44:13,088 INFO 58303 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:44:13,122 INFO 58303 [egg-multipart] stream mode enable
+2020-03-04 23:44:13,123 INFO 58303 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:44:13,303 INFO 58303 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:44:13,306 INFO 58303 [egg-security] use csrf middleware
+2020-03-04 23:44:13,308 INFO 58303 [egg-security] use methodnoallow middleware
+2020-03-04 23:44:13,308 INFO 58303 [egg-security] use noopen middleware
+2020-03-04 23:44:13,309 INFO 58303 [egg-security] use nosniff middleware
+2020-03-04 23:44:13,310 INFO 58303 [egg-security] use xssProtection middleware
+2020-03-04 23:44:13,312 INFO 58303 [egg-security] use xframe middleware
+2020-03-04 23:44:13,312 INFO 58303 [egg-security] use dta middleware
+2020-03-04 23:44:13,313 INFO 58303 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:44:13,322 INFO 58303 [egg:core] dump config after load, 5ms
+2020-03-04 23:44:13,333 INFO 58303 [egg-watcher:application] watcher start success
+2020-03-04 23:44:13,397 INFO 58303 [egg:core] dump config after ready, 8ms
+2020-03-04 23:44:17,978 INFO 58315 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:44:18,002 INFO 58315 [egg-multipart] stream mode enable
+2020-03-04 23:44:18,004 INFO 58315 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:44:18,078 INFO 58315 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:44:18,080 INFO 58315 [egg-security] use csrf middleware
+2020-03-04 23:44:18,080 INFO 58315 [egg-security] use methodnoallow middleware
+2020-03-04 23:44:18,080 INFO 58315 [egg-security] use noopen middleware
+2020-03-04 23:44:18,081 INFO 58315 [egg-security] use nosniff middleware
+2020-03-04 23:44:18,081 INFO 58315 [egg-security] use xssProtection middleware
+2020-03-04 23:44:18,082 INFO 58315 [egg-security] use xframe middleware
+2020-03-04 23:44:18,082 INFO 58315 [egg-security] use dta middleware
+2020-03-04 23:44:18,082 INFO 58315 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:44:18,088 INFO 58315 [egg:core] dump config after load, 4ms
+2020-03-04 23:44:18,098 INFO 58315 [egg-watcher:application] watcher start success
+2020-03-04 23:44:18,177 INFO 58315 [egg:core] dump config after ready, 6ms
+2020-03-04 23:44:28,386 INFO 58342 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:44:28,411 INFO 58342 [egg-multipart] stream mode enable
+2020-03-04 23:44:28,412 INFO 58342 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:44:28,577 INFO 58342 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:44:28,581 INFO 58342 [egg-security] use csrf middleware
+2020-03-04 23:44:28,583 INFO 58342 [egg-security] use methodnoallow middleware
+2020-03-04 23:44:28,584 INFO 58342 [egg-security] use noopen middleware
+2020-03-04 23:44:28,586 INFO 58342 [egg-security] use nosniff middleware
+2020-03-04 23:44:28,587 INFO 58342 [egg-security] use xssProtection middleware
+2020-03-04 23:44:28,588 INFO 58342 [egg-security] use xframe middleware
+2020-03-04 23:44:28,589 INFO 58342 [egg-security] use dta middleware
+2020-03-04 23:44:28,589 INFO 58342 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:44:28,600 INFO 58342 [egg:core] dump config after load, 5ms
+2020-03-04 23:44:28,613 INFO 58342 [egg-watcher:application] watcher start success
+2020-03-04 23:44:28,694 INFO 58342 [egg:core] dump config after ready, 7ms
+2020-03-04 23:44:53,566 INFO 58377 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:44:53,589 INFO 58377 [egg-multipart] stream mode enable
+2020-03-04 23:44:53,590 INFO 58377 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:44:53,668 INFO 58377 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:44:53,669 INFO 58377 [egg-security] use csrf middleware
+2020-03-04 23:44:53,670 INFO 58377 [egg-security] use methodnoallow middleware
+2020-03-04 23:44:53,670 INFO 58377 [egg-security] use noopen middleware
+2020-03-04 23:44:53,670 INFO 58377 [egg-security] use nosniff middleware
+2020-03-04 23:44:53,671 INFO 58377 [egg-security] use xssProtection middleware
+2020-03-04 23:44:53,671 INFO 58377 [egg-security] use xframe middleware
+2020-03-04 23:44:53,671 INFO 58377 [egg-security] use dta middleware
+2020-03-04 23:44:53,671 INFO 58377 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:44:53,678 INFO 58377 [egg:core] dump config after load, 4ms
+2020-03-04 23:44:53,688 INFO 58377 [egg-watcher:application] watcher start success
+2020-03-04 23:44:53,744 INFO 58377 [egg:core] dump config after ready, 7ms
+2020-03-04 23:44:57,831 INFO 58393 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:44:57,855 INFO 58393 [egg-multipart] stream mode enable
+2020-03-04 23:44:57,856 INFO 58393 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:44:57,939 INFO 58393 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:44:57,941 INFO 58393 [egg-security] use csrf middleware
+2020-03-04 23:44:57,942 INFO 58393 [egg-security] use methodnoallow middleware
+2020-03-04 23:44:57,942 INFO 58393 [egg-security] use noopen middleware
+2020-03-04 23:44:57,943 INFO 58393 [egg-security] use nosniff middleware
+2020-03-04 23:44:57,943 INFO 58393 [egg-security] use xssProtection middleware
+2020-03-04 23:44:57,943 INFO 58393 [egg-security] use xframe middleware
+2020-03-04 23:44:57,944 INFO 58393 [egg-security] use dta middleware
+2020-03-04 23:44:57,944 INFO 58393 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:44:57,951 INFO 58393 [egg:core] dump config after load, 5ms
+2020-03-04 23:44:57,966 INFO 58393 [egg-watcher:application] watcher start success
+2020-03-04 23:44:58,039 INFO 58393 [egg:core] dump config after ready, 6ms
+2020-03-04 23:45:43,409 INFO 58440 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:45:43,440 INFO 58440 [egg-multipart] stream mode enable
+2020-03-04 23:45:43,442 INFO 58440 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:45:43,600 INFO 58440 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:45:43,602 INFO 58440 [egg-security] use csrf middleware
+2020-03-04 23:45:43,604 INFO 58440 [egg-security] use methodnoallow middleware
+2020-03-04 23:45:43,605 INFO 58440 [egg-security] use noopen middleware
+2020-03-04 23:45:43,607 INFO 58440 [egg-security] use nosniff middleware
+2020-03-04 23:45:43,608 INFO 58440 [egg-security] use xssProtection middleware
+2020-03-04 23:45:43,609 INFO 58440 [egg-security] use xframe middleware
+2020-03-04 23:45:43,610 INFO 58440 [egg-security] use dta middleware
+2020-03-04 23:45:43,610 INFO 58440 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:45:43,620 INFO 58440 [egg:core] dump config after load, 6ms
+2020-03-04 23:45:43,633 INFO 58440 [egg-watcher:application] watcher start success
+2020-03-04 23:45:43,692 INFO 58440 [egg:core] dump config after ready, 6ms
+2020-03-04 23:45:44,213 INFO 58444 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:45:44,234 INFO 58444 [egg-multipart] stream mode enable
+2020-03-04 23:45:44,235 INFO 58444 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:45:44,305 INFO 58444 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:45:44,307 INFO 58444 [egg-security] use csrf middleware
+2020-03-04 23:45:44,307 INFO 58444 [egg-security] use methodnoallow middleware
+2020-03-04 23:45:44,308 INFO 58444 [egg-security] use noopen middleware
+2020-03-04 23:45:44,308 INFO 58444 [egg-security] use nosniff middleware
+2020-03-04 23:45:44,308 INFO 58444 [egg-security] use xssProtection middleware
+2020-03-04 23:45:44,309 INFO 58444 [egg-security] use xframe middleware
+2020-03-04 23:45:44,309 INFO 58444 [egg-security] use dta middleware
+2020-03-04 23:45:44,309 INFO 58444 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:45:44,315 INFO 58444 [egg:core] dump config after load, 4ms
+2020-03-04 23:45:44,326 INFO 58444 [egg-watcher:application] watcher start success
+2020-03-04 23:45:44,406 INFO 58444 [egg:core] dump config after ready, 6ms
+2020-03-04 23:46:50,952 INFO 58577 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:46:50,975 INFO 58577 [egg-multipart] stream mode enable
+2020-03-04 23:46:50,977 INFO 58577 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:46:51,142 INFO 58577 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:46:51,145 INFO 58577 [egg-security] use csrf middleware
+2020-03-04 23:46:51,146 INFO 58577 [egg-security] use methodnoallow middleware
+2020-03-04 23:46:51,147 INFO 58577 [egg-security] use noopen middleware
+2020-03-04 23:46:51,148 INFO 58577 [egg-security] use nosniff middleware
+2020-03-04 23:46:51,150 INFO 58577 [egg-security] use xssProtection middleware
+2020-03-04 23:46:51,151 INFO 58577 [egg-security] use xframe middleware
+2020-03-04 23:46:51,152 INFO 58577 [egg-security] use dta middleware
+2020-03-04 23:46:51,153 INFO 58577 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:46:51,160 INFO 58577 [egg:core] dump config after load, 3ms
+2020-03-04 23:46:51,174 INFO 58577 [egg-watcher:application] watcher start success
+2020-03-04 23:46:51,230 INFO 58577 [egg:core] dump config after ready, 6ms
+2020-03-04 23:48:44,088 INFO 58659 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:48:44,110 INFO 58659 [egg-multipart] stream mode enable
+2020-03-04 23:48:44,111 INFO 58659 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:48:44,312 INFO 58659 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:48:44,315 INFO 58659 [egg-security] use csrf middleware
+2020-03-04 23:48:44,317 INFO 58659 [egg-security] use methodnoallow middleware
+2020-03-04 23:48:44,318 INFO 58659 [egg-security] use noopen middleware
+2020-03-04 23:48:44,320 INFO 58659 [egg-security] use nosniff middleware
+2020-03-04 23:48:44,321 INFO 58659 [egg-security] use xssProtection middleware
+2020-03-04 23:48:44,322 INFO 58659 [egg-security] use xframe middleware
+2020-03-04 23:48:44,324 INFO 58659 [egg-security] use dta middleware
+2020-03-04 23:48:44,324 INFO 58659 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:48:44,334 INFO 58659 [egg:core] dump config after load, 5ms
+2020-03-04 23:48:44,350 INFO 58659 [egg-watcher:application] watcher start success
+2020-03-04 23:48:44,435 INFO 58659 [egg:core] dump config after ready, 7ms
+2020-03-04 23:49:44,740 INFO 58726 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:49:44,775 INFO 58726 [egg-multipart] stream mode enable
+2020-03-04 23:49:44,778 INFO 58726 [egg-mysql] connecting root@120.78.78.15512312:3306/server_page
+2020-03-04 23:49:44,944 INFO 58726 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:49:44,947 INFO 58726 [egg-security] use csrf middleware
+2020-03-04 23:49:44,948 INFO 58726 [egg-security] use methodnoallow middleware
+2020-03-04 23:49:44,948 INFO 58726 [egg-security] use noopen middleware
+2020-03-04 23:49:44,950 INFO 58726 [egg-security] use nosniff middleware
+2020-03-04 23:49:44,951 INFO 58726 [egg-security] use xssProtection middleware
+2020-03-04 23:49:44,951 INFO 58726 [egg-security] use xframe middleware
+2020-03-04 23:49:44,952 INFO 58726 [egg-security] use dta middleware
+2020-03-04 23:49:44,952 INFO 58726 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:49:44,960 INFO 58726 [egg:core] dump config after load, 4ms
+2020-03-04 23:49:44,975 INFO 58726 [egg-watcher:application] watcher start success
+2020-03-04 23:49:46,005 INFO 58726 [egg:core] dump config after ready, 5ms
+2020-03-04 23:50:06,077 INFO 58782 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:50:06,099 INFO 58782 [egg-multipart] stream mode enable
+2020-03-04 23:50:06,100 INFO 58782 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:50:06,174 INFO 58782 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:50:06,176 INFO 58782 [egg-security] use csrf middleware
+2020-03-04 23:50:06,176 INFO 58782 [egg-security] use methodnoallow middleware
+2020-03-04 23:50:06,176 INFO 58782 [egg-security] use noopen middleware
+2020-03-04 23:50:06,177 INFO 58782 [egg-security] use nosniff middleware
+2020-03-04 23:50:06,177 INFO 58782 [egg-security] use xssProtection middleware
+2020-03-04 23:50:06,178 INFO 58782 [egg-security] use xframe middleware
+2020-03-04 23:50:06,178 INFO 58782 [egg-security] use dta middleware
+2020-03-04 23:50:06,178 INFO 58782 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:50:06,184 INFO 58782 [egg:core] dump config after load, 4ms
+2020-03-04 23:50:06,197 INFO 58782 [egg-watcher:application] watcher start success
+2020-03-04 23:50:06,269 INFO 58782 [egg:core] dump config after ready, 8ms
+2020-03-04 23:50:23,640 INFO 58815 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:50:23,662 INFO 58815 [egg-multipart] stream mode enable
+2020-03-04 23:50:23,663 INFO 58815 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:50:23,740 INFO 58815 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:50:23,742 INFO 58815 [egg-security] use csrf middleware
+2020-03-04 23:50:23,742 INFO 58815 [egg-security] use methodnoallow middleware
+2020-03-04 23:50:23,742 INFO 58815 [egg-security] use noopen middleware
+2020-03-04 23:50:23,743 INFO 58815 [egg-security] use nosniff middleware
+2020-03-04 23:50:23,743 INFO 58815 [egg-security] use xssProtection middleware
+2020-03-04 23:50:23,744 INFO 58815 [egg-security] use xframe middleware
+2020-03-04 23:50:23,744 INFO 58815 [egg-security] use dta middleware
+2020-03-04 23:50:23,744 INFO 58815 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:50:23,750 INFO 58815 [egg:core] dump config after load, 4ms
+2020-03-04 23:50:23,763 INFO 58815 [egg-watcher:application] watcher start success
+2020-03-04 23:50:23,835 INFO 58815 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 04 2020 23:50:23 GMT+0800 (中国标准时间)
+2020-03-04 23:50:23,844 INFO 58815 [egg:core] dump config after ready, 6ms
+2020-03-04 23:50:28,825 INFO 58815 [egg-view-nunjucks] loading templates from ["/Users/kimchan/Desktop/Code/Github/JustEgg/app/view"]
+2020-03-04 23:50:41,639 INFO 58839 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:50:41,663 INFO 58839 [egg-multipart] stream mode enable
+2020-03-04 23:50:41,665 INFO 58839 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:50:41,743 INFO 58839 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:50:41,745 INFO 58839 [egg-security] use csrf middleware
+2020-03-04 23:50:41,746 INFO 58839 [egg-security] use methodnoallow middleware
+2020-03-04 23:50:41,746 INFO 58839 [egg-security] use noopen middleware
+2020-03-04 23:50:41,747 INFO 58839 [egg-security] use nosniff middleware
+2020-03-04 23:50:41,747 INFO 58839 [egg-security] use xssProtection middleware
+2020-03-04 23:50:41,747 INFO 58839 [egg-security] use xframe middleware
+2020-03-04 23:50:41,747 INFO 58839 [egg-security] use dta middleware
+2020-03-04 23:50:41,748 INFO 58839 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:50:41,753 INFO 58839 [egg:core] dump config after load, 3ms
+2020-03-04 23:50:41,764 INFO 58839 [egg-watcher:application] watcher start success
+2020-03-04 23:50:41,831 INFO 58839 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 04 2020 23:50:41 GMT+0800 (中国标准时间)
+2020-03-04 23:50:41,839 INFO 58839 [egg:core] dump config after ready, 5ms
+2020-03-04 23:50:52,086 INFO 58853 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:50:52,108 INFO 58853 [egg-multipart] stream mode enable
+2020-03-04 23:50:52,108 INFO 58853 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-03-04 23:50:52,181 INFO 58853 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:50:52,182 INFO 58853 [egg-security] use csrf middleware
+2020-03-04 23:50:52,183 INFO 58853 [egg-security] use methodnoallow middleware
+2020-03-04 23:50:52,183 INFO 58853 [egg-security] use noopen middleware
+2020-03-04 23:50:52,184 INFO 58853 [egg-security] use nosniff middleware
+2020-03-04 23:50:52,184 INFO 58853 [egg-security] use xssProtection middleware
+2020-03-04 23:50:52,185 INFO 58853 [egg-security] use xframe middleware
+2020-03-04 23:50:52,185 INFO 58853 [egg-security] use dta middleware
+2020-03-04 23:50:52,185 INFO 58853 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:50:52,192 INFO 58853 [egg:core] dump config after load, 3ms
+2020-03-04 23:50:52,201 INFO 58853 [egg-watcher:application] watcher start success
+2020-03-04 23:50:52,259 INFO 58853 [egg:core] dump config after ready, 5ms
+2020-03-04 23:50:54,787 INFO 58865 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:50:54,810 INFO 58865 [egg-multipart] stream mode enable
+2020-03-04 23:50:54,811 INFO 58865 [egg-mysql] connecting 18239081290312@120.78.78.155:3306/server_page
+2020-03-04 23:50:54,881 INFO 58865 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:50:54,883 INFO 58865 [egg-security] use csrf middleware
+2020-03-04 23:50:54,883 INFO 58865 [egg-security] use methodnoallow middleware
+2020-03-04 23:50:54,884 INFO 58865 [egg-security] use noopen middleware
+2020-03-04 23:50:54,884 INFO 58865 [egg-security] use nosniff middleware
+2020-03-04 23:50:54,884 INFO 58865 [egg-security] use xssProtection middleware
+2020-03-04 23:50:54,885 INFO 58865 [egg-security] use xframe middleware
+2020-03-04 23:50:54,885 INFO 58865 [egg-security] use dta middleware
+2020-03-04 23:50:54,885 INFO 58865 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:50:54,891 INFO 58865 [egg:core] dump config after load, 3ms
+2020-03-04 23:50:54,901 INFO 58865 [egg-watcher:application] watcher start success
+2020-03-04 23:50:54,969 INFO 58865 [egg:core] dump config after ready, 6ms
+2020-03-04 23:50:55,993 INFO 58868 [egg:logger] init all loggers with options: {"dir":"/Users/kimchan/Desktop/Code/Github/JustEgg/logs/offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-04 23:50:56,020 INFO 58868 [egg-multipart] stream mode enable
+2020-03-04 23:50:56,021 INFO 58868 [egg-mysql] connecting 18239081290312@120.78.78.155:3306/server_page
+2020-03-04 23:50:56,102 INFO 58868 [egg-static] starting static serve /public/ -> /Users/kimchan/Desktop/Code/Github/JustEgg/app/public
+2020-03-04 23:50:56,103 INFO 58868 [egg-security] use csrf middleware
+2020-03-04 23:50:56,104 INFO 58868 [egg-security] use methodnoallow middleware
+2020-03-04 23:50:56,104 INFO 58868 [egg-security] use noopen middleware
+2020-03-04 23:50:56,105 INFO 58868 [egg-security] use nosniff middleware
+2020-03-04 23:50:56,106 INFO 58868 [egg-security] use xssProtection middleware
+2020-03-04 23:50:56,106 INFO 58868 [egg-security] use xframe middleware
+2020-03-04 23:50:56,106 INFO 58868 [egg-security] use dta middleware
+2020-03-04 23:50:56,107 INFO 58868 [egg-security] compose 7 middlewares into one security middleware
+2020-03-04 23:50:56,112 INFO 58868 [egg:core] dump config after load, 3ms
+2020-03-04 23:50:56,123 INFO 58868 [egg-watcher:application] watcher start success
+2020-03-04 23:50:56,188 INFO 58868 [egg:core] dump config after ready, 6ms
