@@ -7,3 +7,4 @@ dist
 build
 logs/
 logs/offical
+config/config.default.js

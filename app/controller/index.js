@@ -1,12 +1,5 @@
 const Controller = require("egg").Controller;
 class Index extends Controller {
-  async list() {
-    // 调用service
-    const ctx = this.ctx;
-    const page = ctx.query.page || 1;
-    const newsList = await ctx.service.news.list(page);
-    await ctx.render("news/index.tpl", { list: newsList });
-  }
   async index() {
     // 调用service
     const ctx = this.ctx;
@@ -22,7 +15,9 @@ class Index extends Controller {
     for (let company of renderData.companyInfo) {
       renderData.companyInfo = await ctx.service.index.projectInfo(company.id);
     }
-    await ctx.render("index.tpl", { data: JSON.stringify(renderData) });
+    // await ctx.render("index.tpl", { data: JSON.stringify(renderData) }); //写入模板文件
+
+    ctx.body = { data: JSON.stringify(renderData) };//直接跑回数据
   }
 }
 
