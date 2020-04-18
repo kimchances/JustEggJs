@@ -15,7 +15,9 @@ class Index extends Controller {
     for (let company of renderData.companyInfo) {
       renderData.companyInfo = await ctx.service.index.projectInfo(company.id);
     }
-    await ctx.render("index.tpl", { data: JSON.stringify(renderData) });
+    // await ctx.render("index.tpl", { data: JSON.stringify(renderData) }); //写入模板文件
+
+    ctx.body = { data: JSON.stringify(renderData) };//直接跑回数据
   }
 }
 
