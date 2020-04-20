@@ -43,3 +43,18 @@
 2020-04-18 16:25:49,501 INFO 7940 [egg-watcher:application] watcher start success
 2020-04-18 16:25:49,530 INFO 7940 [egg-mysql] instance[0] status OK, rds currentTime: Sat Apr 18 2020 16:25:50 GMT+0800 (GMT+08:00)
 2020-04-18 16:25:49,542 INFO 7940 [egg:core] dump config after ready, 9ms
+2020-04-18 17:18:55,719 INFO 6080 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\self\\JustEggJs\\logs\\offical","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"offical-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-18 17:18:55,749 INFO 6080 [egg-multipart] stream mode enable
+2020-04-18 17:18:55,751 INFO 6080 [egg-mysql] connecting root@120.78.78.155:3306/server_page
+2020-04-18 17:18:55,895 INFO 6080 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\self\JustEggJs\app\public
+2020-04-18 17:18:55,897 INFO 6080 [egg-security] use methodnoallow middleware
+2020-04-18 17:18:55,898 INFO 6080 [egg-security] use noopen middleware
+2020-04-18 17:18:55,899 INFO 6080 [egg-security] use nosniff middleware
+2020-04-18 17:18:55,900 INFO 6080 [egg-security] use xssProtection middleware
+2020-04-18 17:18:55,900 INFO 6080 [egg-security] use xframe middleware
+2020-04-18 17:18:55,901 INFO 6080 [egg-security] use dta middleware
+2020-04-18 17:18:55,901 INFO 6080 [egg-security] compose 6 middlewares into one security middleware
+2020-04-18 17:18:55,914 INFO 6080 [egg:core] dump config after load, 7ms
+2020-04-18 17:18:55,930 INFO 6080 [egg-watcher:application] watcher start success
+2020-04-18 17:18:55,967 INFO 6080 [egg-mysql] instance[0] status OK, rds currentTime: Sat Apr 18 2020 17:18:56 GMT+0800 (GMT+08:00)
+2020-04-18 17:18:55,974 INFO 6080 [egg:core] dump config after ready, 5ms
